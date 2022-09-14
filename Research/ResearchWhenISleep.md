@@ -10,13 +10,13 @@ It is also interesting to see if there are alternative options for meeting this 
 found on the forums, I also superficially examined the proposed
 me options in Google Play.
 Application Names: 
-+ Sleep Cycle 
-+ Sleep Time 
-+ Twilight
-+  Pzizz
-+  Calm
-+  Sleep Monitoring: Sleep Tracker
-+  Sleep as Android.
++ [**Sleep Cycle**](https://play.google.com/store/apps/details?id=com.northcube.sleepcycle)
++ [**Sleep Time**](https://play.google.com/store/apps/details?id=ru.olegfilimonov.sleeptime)
++ [**Twilight**](https://play.google.com/store/apps/details?id=com.urbandroid.lux)
++  [**Pzizz**](https://play.google.com/store/apps/details?id=com.pzizz.android)
++  [**Calm**](https://play.google.com/store/apps/details?id=com.calm.android)
++  [**Sleep Monitoring: Sleep Tracker**](https://play.google.com/store/apps/details?id=sleeptrakcer.sleeprecorder.sleepapp.sleep)
++  [**Sleep as Android**](https://play.google.com/store/apps/details?id=com.urbandroid.sleep)
 
 _Sleep cycle_
 

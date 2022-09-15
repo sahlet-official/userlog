@@ -1,14 +1,14 @@
+Research on the topic: "How can I find out when I sleep with the help of a gadget?"
+
 There is a need to know when the person sleeps.
-There is an idea to estimate the moment of the start of speep - monitor some user actions on a smartphone.
+There is an idea to estimate the moment of the start of sleep - monitor some user actions on a smartphone.
 
 Before creating an application, it is worth understanding whether there are analogs on the market right now
 and what functionality they offer.
 It is also interesting to see if there are alternative options for meeting this need.
 
 
-  I wrote down the most popular sleep monitoring apps that I
-found on the forums, I also superficially examined the proposed
-me options in Google Play.
+  We will analyze the applications of representations on the market, and find out their methods of fixing the moment of falling asleep
 Application Names: 
 + [**Sleep Cycle**](https://play.google.com/store/apps/details?id=com.northcube.sleepcycle)
 + [**Sleep Time**](https://play.google.com/store/apps/details?id=ru.olegfilimonov.sleeptime)
@@ -25,8 +25,8 @@ _Sleep cycle_
    + Determination of the sleep phase using a microphone.
    + Determining the quality of sleep, and maintaining sleep statistics.
    + Record user's night sounds.
-+ Pricing: The program is paid. There is a trial period of 30 days. After is issued
-paid subscription 800 UAH/month.
++ Pricing: The program is paid. There is a trial period of 30 days. After being issued
+paid subscription of 800 UAH/month.
 + Popularity: This program is very popular. A lot of 10 mln downloads.
 + Pross:
    + Great functionality.
@@ -61,7 +61,7 @@ _Twilight_
 _Pzizz_
 
 + Functions: The application provides a set of melodies that play at a certain time interval that the user sets.
-+ Pricing: is free, but have a pricing content. 
++ Pricing: is free, but has pricing content. 
 + Popularity: 500000+ downloads.
 + Pross:-
 + Cons: Does not record the time of falling asleep on its own.
@@ -72,10 +72,10 @@ _Calm_
 + Functions: The application provides a set of melodies that play at a certain time interval that the user sets.
 + Pricing: is free.
 + Popularity: 10+ mln downloads.
-+ Pross: Nice interface.
++ Pros: Nice interface.
 + Cons: Does not record the time of falling asleep on its own.
 
-  The same as the Pzizz app. A set of melodies for sleep and melitation, with
+  The same as the Pzizz app. A set of melodies for sleep and meditation, with
 bad monetary policy.
 
 Not suitable.
@@ -128,7 +128,10 @@ ___
 
 It can be seen from the analysis that applications fixing the moment of falling asleep are presented on the market, and have great success. All of them record the moment of falling asleep either with a microphone or with a fitness tracker.
 
-From the list of applications, the condition for fixing the moment of falling asleep corresponds to: "Sleep Cycle", "Sleep Monitoring: Sleep Tracker", "Sleep as Android". 
+From the list of applications, the condition for fixing the moment of falling asleep corresponds to: "Sleep Cycle", "Sleep Monitoring: Sleep Tracker", and "Sleep as Android". 
 
-Of these, I consider "Sleep as Android" to be the best choice. This application has the least number of cons, great functionality and is free.
+Of these, I consider "Sleep as Android" to be the best choice. This application has the least number of cons, has great functionality, and is free.
 
+Also, it is worth mentioning that you can record the moment of falling asleep with the help of physiological data from meetings with a fitness tracker.
+
+But this method is not suitable for our application due to the lack of a fitness tracker for testing and the complexity of implementation.

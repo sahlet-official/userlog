@@ -72,7 +72,6 @@ It should be a less prominent part of the UI than the rest.<br>
 5. User story.<br>
 Menue button.<br>
 <br>
-<br>
 
 #### Menu screen
 
@@ -84,7 +83,6 @@ Clear log menu item.<br>
 
 ?. User story.<br>
 About menu item.<br>
-<br>
 <br>
 
 #### About App screen
@@ -100,7 +98,6 @@ About App info content area.<br>
 
 ?. User story.<br>
 About App info content.<br>
-<br>
 <br>
 
 #### Windows
@@ -122,7 +119,6 @@ As a user, I want to have an option to clear the log throw the confirmation wind
      - When Cancel was pressed - the window close
      - When Clear was pressed - the log is cleared and then the window closes
      - It should correspond to design requirements [TODO: link should be here]()
-<br>
 <br>
 
 #### Scenarios

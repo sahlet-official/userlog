@@ -17,7 +17,7 @@ I want to see it like log.<br>
    - Acceptance criteria:
      - When the log text area is empty - there should be transparent or gray text "log..." without quotes
      - When the log text area is not empty - there should not be text "log...", only log text
-     - Lines should look like: &lt;name of button> &lt;date and time of pressed event>
+     - Lines should look like this: &lt;name of button> &lt;date and time of pressed event>
      - It should correspond to design requirements [TODO: link should be here]()
 2. User story.<br>
 The filter text input.<br>

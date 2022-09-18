@@ -49,6 +49,16 @@ It should be a less prominent part of the UI than the rest.<br>
      - It should correspond to proposed design [TODO: link should be here]()
 
 4. User story.<br>
+Clear log scenario.<br>
+As a user, I want to have option to clear the log.<br>
+When clear log scenario is called - appiers a confirmation window.<br>
+   - Acceptance criteria:
+     - In the window there should be e question "Are you sure you want to clear the log?" without quotes
+     - The records number row should show whole size of the log when the filter text input is empty
+     - The records number row should show a number of filtered lines when the filter text input is not empty
+     - It should correspond to proposed design [TODO: link should be here]()
+
+5. User story.<br>
 Clear log feature.<br>
 As a user, I want to have option to cleanup the log.<br>
 I want to have a button ontop of the right.<br>
@@ -69,3 +79,13 @@ It should be a less prominent part of the UI than the rest.<br>
      - The records number row should show whole size of the log when the filter text input is empty
      - The records number row should show a number of filtered lines when the filter text input is not empty
      - It should correspond to proposed design [TODO: link should be here]()
+
+menue button
+
+menue:
+
+clear log
+
+about
+
+about screen

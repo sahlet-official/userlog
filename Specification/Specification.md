@@ -62,7 +62,7 @@ It should be a less prominent part of the UI than the rest.<br>
        - two rounded arrows
      - It should correspond to design requirements [TODO: link should be here]()
 5. User story.<br>
-Menue button.<br>
+Menu button.<br>
 <br>
 
 #### Menu screen

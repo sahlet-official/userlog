@@ -116,7 +116,10 @@ As a user, I want to have an option to clear the log throw the confirmation wind
 #### Scenarios
 
 ?. User story.<br>
-On button event.<br>
+On device button event scenario.<br>
+
+?. User story.<br>
+Clear log menu item scenario.<br>
 
 ?. User story.<br>
 Clear log scenario.<br>
@@ -127,7 +130,7 @@ When a clear log scenario is called - it opens the confirmation clear log window
 Show About scenario.<br>
 
 ?. User story.<br>
-Show Menu scenario.<br>
+Open Menu scenario.<br>
 
 ?. User story.<br>
 Close Menu scenario.<br>

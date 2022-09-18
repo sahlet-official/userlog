@@ -8,7 +8,6 @@ You can view your button events log and filter records.<br>
 
 
 ## Requirements
-<br>
 
 #### Main screen
 1. User story.<br>
@@ -75,24 +74,6 @@ Menue button.<br>
 <br>
 <br>
 
-#### Scenarios
-
-?. User story.<br>
-Clear log scenario.<br>
-As a user, I want to have an option to clear log.<br>
-When a clear log scenario is called - it opens the confirmation clear log window.<br>
-
-?. User story.<br>
-Show About scenario.<br>
-
-?. User story.<br>
-Show Menu scenario.<br>
-
-?. User story.<br>
-Close Menu scenario.<br>
-<br>
-<br>
-
 #### Menu screen
 
 ?. User story.<br>
@@ -141,4 +122,26 @@ As a user, I want to have an option to clear the log throw the confirmation wind
      - When Cancel was pressed - the window close
      - When Clear was pressed - the log is cleared and then the window closes
      - It should correspond to design requirements [TODO: link should be here]()
+<br>
+<br>
+
+#### Scenarios
+
+?. User story.<br>
+On button event.<br>
+
+?. User story.<br>
+Clear log scenario.<br>
+As a user, I want to have an option to clear log.<br>
+When a clear log scenario is called - it opens the confirmation clear log window.<br>
+
+?. User story.<br>
+Show About scenario.<br>
+
+?. User story.<br>
+Show Menu scenario.<br>
+
+?. User story.<br>
+Close Menu scenario.<br>
+<br>
 <br>

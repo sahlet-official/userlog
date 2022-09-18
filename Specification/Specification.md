@@ -102,10 +102,10 @@ Confirmation clear log window.<br>
 As a user, I want to have an option to clear the log throw the confirmation window to be able to confirm or cancel the action.<br>
    - Acceptance criteria:
      - In the window, there should be a question "Are you sure you want to clear the log?" without quotes
-     - In the window there should be two options that user can select:
+     - In the window there should be two options that the user can select:
        - Cancel
        - Clear
-     - Options should be pressable and looks different for the user,
+     - Options should be pressable and look different for the user,
        not only text but some additional properties should be different (it is discussable),
        (for example, the Cancel option can be blue and the Clear option can be red)
      - When Cancel was pressed - the window close
@@ -123,7 +123,7 @@ Clear log menu item scenario.<br>
 
 ?. User story.<br>
 Clear log scenario.<br>
-As a user, I want to have an option to clear log.<br>
+As a user, I want to have an option to clear the log.<br>
 When a clear log scenario is called - it opens the confirmation clear log window.<br>
 
 ?. User story.<br>

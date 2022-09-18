@@ -8,6 +8,7 @@ You can view your button events log and filter records.<br>
 
 ## Requirements
 
+#### Main screen
 1. User story.<br>
 The log text area.<br>
 As a user, I want to view when physical buttons of my phone was pressed.<br>
@@ -49,22 +50,6 @@ It should be a less prominent part of the UI than the rest.<br>
      - It should correspond to design requirements [TODO: link should be here]()
 
 4. User story.<br>
-Clear log scenario.<br>
-As a user, I want to have option to clear the log.<br>
-When clear log scenario is called - appiers a confirmation window.<br>
-   - Acceptance criteria:
-     - In the window there should be a question "Are you sure you want to clear the log?" without quotes
-     - In the window there should be two options which user can sellect:
-       - Cancel
-       - Clear
-     - Options should be pressable and looks different for user,
-       not only text but some additional properties should be different (it is discussable),
-       (for example Cancel option can be blue and Clear option can be red)
-     - When Cancel was pressed - the window close
-     - When Clear was pressed - the log is cleared and then the window closes
-     - It should correspond to design requirements [TODO: link should be here]()
-
-5. User story.<br>
 Clear log button.<br>
 As a user, I want to run clear log scenario by button.<br>
 I want to have a button ontop of the right corner of the log text area.<br>
@@ -87,12 +72,70 @@ It should be small enough.<br>
      - The records number row should show a number of filtered lines when the filter text input is not empty
      - It should correspond to proposed design [TODO: link should be here]()
 
-menue button
+5. User story.<br>
+Menue button.<br>
 
-menue:
 
-clear log
+#### Scenarios
 
-about
+?. User story.<br>
+Clear log scenario.<br>
+As a user, I want to have option to clear the log.<br>
+When clear log scenario is called - appiers a confirmation clear log window.<br>
+   - Acceptance criteria:
+     - In the window there should be a question "Are you sure you want to clear the log?" without quotes
+     - In the window there should be two options which user can sellect:
+       - Cancel
+       - Clear
+     - Options should be pressable and looks different for user,
+       not only text but some additional properties should be different (it is discussable),
+       (for example Cancel option can be blue and Clear option can be red)
+     - When Cancel was pressed - the window close
+     - When Clear was pressed - the log is cleared and then the window closes
+     - It should correspond to design requirements [TODO: link should be here]()
 
-about screen
+?. User story.<br>
+Show About scenario.<br>
+
+?. User story.<br>
+Show Menu scenario.<br>
+
+
+#### Menu screen
+
+?. User story.<br>
+Menue button.<br>
+
+?. User story.<br>
+Clear log menu item.<br>
+
+?. User story.<br>
+About menu item.<br>
+
+
+#### About screen
+
+?. User story.<br>
+Close button.<br>
+
+?. User story.<br>
+About App info content.<br>
+
+
+#### Windows
+
+?. User story.<br>
+Confirmation clear log window.<br>
+As a user, I want to have option to clear the log trow .<br>
+When clear log scenario is called - appiers a confirmation clear log window.<br>
+   - Acceptance criteria:
+     - In the window there should be a question "Are you sure you want to clear the log?" without quotes
+     - In the window there should be two options which user can sellect:
+       - Cancel
+       - Clear
+     - Options should be pressable and looks different for user,
+       not only text but some additional properties should be different (it is discussable),
+       (for example Cancel option can be blue and Clear option can be red)
+     - When Cancel was pressed - the window close
+     - When Clear was pressed - the log is cleared and then the window closes
+     - It should correspond to design requirements [TODO: link should be here]()

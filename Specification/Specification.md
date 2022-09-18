@@ -19,8 +19,6 @@ I want to see it like log.<br>
      - When the log text area is not empty - there should not be transparent or gray text "log...", only log text
      - Lines should look like: &lt;name of button> &lt;date and time of pressed event>
      - It should correspond to design requirements [TODO: link should be here]()
-<br>
-
 2. User story.<br>
 The filter text input.<br>
 As a user, I want to have an option to use text search by the log.<br>
@@ -30,8 +28,6 @@ where I can write text and only lines with this text will be in the log view.<br
      - When the filter text input is empty - there should be transparent or gray text "Filter..." without quotes
      - When the filter text input is not empty - there should not be transparent or gray text "Filter...", only entered text
      - It should correspond to design requirements [TODO: link should be here]()
-<br>
-
 3. User story.<br>
 The records number row.<br>
 As a user, I want to have an option to see the number of records in the log.<br>
@@ -53,8 +49,6 @@ I want to have the records number row between the filter text input and the log 
      - The records number row should show the whole size of the log when the filter text input is empty
      - The records number row should show a number of filtered lines when the filter text input is not empty
      - It should correspond to design requirements [TODO: link should be here]()
-<br>
-
 4. User story.<br>
 Clear log button.<br>
 As a user, I want to run the clear log scenario by button.<br>
@@ -67,8 +61,6 @@ It should be a less prominent part of the UI than the rest.<br>
        - recycle bin
        - two rounded arrows
      - It should correspond to design requirements [TODO: link should be here]()
-<br>
-
 5. User story.<br>
 Menue button.<br>
 <br>

@@ -6,7 +6,9 @@ Mobile App for log device buttons events.<br>
 The App logs the name of physical button and the time when it was pressed.<br>
 You can view your button events log and filter records.<br>
 
+
 ## Requirements
+<br>
 
 #### Main screen
 1. User story.<br>
@@ -70,7 +72,8 @@ It should be a less prominent part of the UI than the rest.<br>
 
 5. User story.<br>
 Menue button.<br>
-
+<br>
+<br>
 
 #### Scenarios
 
@@ -87,7 +90,8 @@ Show Menu scenario.<br>
 
 ?. User story.<br>
 Close Menu scenario.<br>
-
+<br>
+<br>
 
 #### Menu screen
 
@@ -99,7 +103,8 @@ Clear log menu item.<br>
 
 ?. User story.<br>
 About menu item.<br>
-
+<br>
+<br>
 
 #### About App screen
 
@@ -114,7 +119,8 @@ About App info content area.<br>
 
 ?. User story.<br>
 About App info content.<br>
-
+<br>
+<br>
 
 #### Windows
 

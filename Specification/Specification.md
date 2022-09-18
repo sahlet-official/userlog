@@ -16,7 +16,7 @@ As a user, I want to view when physical buttons of my phone was pressed.<br>
 I want to see it like log.<br>
    - Acceptance criteria:
      - When the log text area is empty - there should be transparent or gray text "log..." without quotes
-     - When the log text area is not empty - there should not be transparent or gray text "log...", only log text
+     - When the log text area is not empty - there should not be text "log...", only log text
      - Lines should look like: &lt;name of button> &lt;date and time of pressed event>
      - It should correspond to design requirements [TODO: link should be here]()
 2. User story.<br>
@@ -26,7 +26,7 @@ I want the filter text input to be at the top above the log text area,<br>
 where I can write text and only lines with this text will be in the log view.<br>
    - Acceptance criteria:
      - When the filter text input is empty - there should be transparent or gray text "Filter..." without quotes
-     - When the filter text input is not empty - there should not be transparent or gray text "Filter...", only entered text
+     - When the filter text input is not empty - there should not be text "Filter...", only entered text
      - It should correspond to design requirements [TODO: link should be here]()
 3. User story.<br>
 The records number row.<br>

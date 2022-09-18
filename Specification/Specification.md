@@ -22,7 +22,7 @@ I want to see it like log.<br>
 2. User story.<br>
 The filter text input.<br>
 As a user, I want to have an option to use text search by the log.<br>
-I want to have the filter text input on the top of the log,<br>
+I want the filter text input to be at the top above the log text area,<br>
 where I can write text and only lines with this text will be in the log view.<br>
    - Acceptance criteria:
      - When the filter text input is empty - there should be transparent or gray text "Filter..." without quotes

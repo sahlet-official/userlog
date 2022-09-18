@@ -32,7 +32,40 @@ As a user, I want to have option to see a number of records that in the log.<br>
 I want to have the records number row between the filter text input and the log text area.<br>
 It should be a less prominent part of the UI than the rest.<br>
    - Acceptance criteria:
-     - The records number row text should be tike: <number of records> records
+     - The records number row text should be one of following (it is discussable):
+       - <number of records> records
+       - records: <number of records>
+       - records number: <number of records>
+       - <number of records> rows
+       - rows: <number of records>
+       - rows number: <number of records>
+       - row count: <number of records>
+       - <number of records> lines
+       - lines: <number of records>
+       - lines number: <number of records>
+       - line count: <number of records>
+     - The records number row should show whole size of the log when the filter text input is empty
+     - The records number row should show a number of filtered lines when the filter text input is not empty
      - It should correspond to proposed design [TODO: link should be here]()
 
-- On the top of the log text area I want to se line with gray backgroung and
+4. User story.<br>
+Clear log feature.<br>
+As a user, I want to have option to cleanup the log.<br>
+I want to have a button ontop of the right.<br>
+It should be a less prominent part of the UI than the rest.<br>
+   - Acceptance criteria:
+     - The records number row text should be one of following (it is discussable):
+       - <number of records> records
+       - records: <number of records>
+       - records number: <number of records>
+       - <number of records> rows
+       - rows: <number of records>
+       - rows number: <number of records>
+       - row count: <number of records>
+       - <number of records> lines
+       - lines: <number of records>
+       - lines number: <number of records>
+       - line count: <number of records>
+     - The records number row should show whole size of the log when the filter text input is empty
+     - The records number row should show a number of filtered lines when the filter text input is not empty
+     - It should correspond to proposed design [TODO: link should be here]()

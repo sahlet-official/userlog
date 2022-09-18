@@ -90,7 +90,7 @@ About App info content.<br>
 Windows background.<br>
 2. User story. [TODO: issue reference]()<br>
 Confirmation window for clear log.<br>
-As a user, I want to have an option to clear the log throw the confirmation window to be able to confirm or cancel the action.<br>
+As a user, I want to have an option to clear the log through the confirmation window to be able to confirm or cancel the action.<br>
    - Acceptance criteria:
      - In the window, there should be a question "Are you sure you want to clear the log?" without quotes
      - In the window there should be two options that the user can select:

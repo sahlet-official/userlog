@@ -1,5 +1,5 @@
 # Research on the topic: "When I sleep?"
-Research is done in september of 2022.
+Research is done in september of 2022 by [Yurii Kryvonosov](https://github.com/Yura-0)
 
 There is a need to know when the person sleeps.<br>
 There is an idea to estimate the moment of the start of sleep monitor some user actions on a smartphone.<br>

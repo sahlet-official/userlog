@@ -21,4 +21,4 @@ I don't know if should it be a cross on the right top corner or an arrow on the 
 
 
 #### Windows
-TODO
+![image](https://user-images.githubusercontent.com/45210795/192561244-39fd4f9a-217b-4c6d-b489-775b5b388f2d.png)

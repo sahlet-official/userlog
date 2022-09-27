@@ -1,5 +1,5 @@
 # Research on the topic: "When I sleep?"
-Research is done in september of 2022 by [Yurii Kryvonosov](https://github.com/Yura-0)
+The research was conducted in September 2022 by [Yurii Kryvonosov](https://github.com/Yura-0)<br>
 
 There is a need to know when the person sleeps.<br>
 There is an idea to estimate the moment of the start of sleep monitor some user actions on a smartphone.<br>
@@ -66,8 +66,7 @@ paid subscription of 22$/month.
 + Popularity: 10+ mln downloads.
 + Pros: Nice interface.
 + Cons: Does not record the time of falling asleep on its own.
-+ Comment:The same as the Pzizz app. A set of melodies for sleep and meditation, with
-bad monetary policy.<br>
++ Comment:The same as the Pzizz app. A set of melodies for sleep and meditation.<br>
 Not suitable.
 
  [Sleep Monitoring: Sleep Tracker](https://play.google.com/store/apps/details?id=sleeptrakcer.sleeprecorder.sleepapp.sleep)

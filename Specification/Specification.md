@@ -61,8 +61,21 @@ It should be a less prominent part of the UI than the rest.<br>
        - recycle bin
        - two rounded arrows
      - It should correspond to design requirements [TODO: link should be here]()
-5. User story. [TODO: issue reference]()<br>
-Menu button.<br>
+5. Product Owner story. [TODO: issue reference]()<br>
+Bottom Panel.<br>
+As a PO, I want to make user able to watch information about app.<br>
+I want to have a button on the bottom of the Main screen.<br>
+It should be as prominent a part of the user interface as the rest.<br>
+As a User, I want to be able to watch information about app.<br>
+I want to have a button on the bottom of the Main screen.<br>
+It should be as prominent a part of the user interface as the rest.<br>
+   - Acceptance criteria:
+     - It should be a less prominent part of the UI than the rest
+     - It should be a small enough button with a symbol that let the user understand that it is a clear log button (it is discussable)
+       For example:
+       - recycle bin
+       - two rounded arrows
+     - It should correspond to design requirements [TODO: link should be here]()
 <br>
 
 #### Menu screen

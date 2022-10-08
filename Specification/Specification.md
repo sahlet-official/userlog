@@ -11,7 +11,7 @@ You can view your button events log and filter records.<br>
 
 #### Main screen
 1. User story. [TODO: issue reference]()<br>
-The log text area.<br>
+**Log text area**.<br>
 As a user, I want to view when physical buttons of my phone was pressed.<br>
 I want to see it like log.<br>
    - Acceptance criteria:
@@ -20,7 +20,7 @@ I want to see it like log.<br>
      - Lines should look like this: &lt;name of button> &lt;date and time of pressed event>
      - It should correspond to design requirements [TODO: link should be here]()
 2. User story. [TODO: issue reference]()<br>
-The filter text input.<br>
+Filter text input.<br>
 As a user, I want to have an option to use text search by the log.<br>
 I want the filter text input to be at the top above the log text area,<br>
 where I can write text and only lines with this text will be in the log view.<br>
@@ -29,23 +29,12 @@ where I can write text and only lines with this text will be in the log view.<br
      - When the filter text input is not empty - there should not be text "Filter...", only entered text
      - It should correspond to design requirements [TODO: link should be here]()
 3. User story. [TODO: issue reference]()<br>
-The records number row.<br>
+Records number row.<br>
 As a user, I want to have an option to see the number of records in the log.<br>
 I want to have the records number row between the filter text input and the log text area.<br>
    - Acceptance criteria:
      - It should be a less prominent part of the UI than the rest
-     - The records number row text should be one of the following (it is discussable):
-       - &lt;number of records> records
-       - records: &lt;number of records>
-       - records number: &lt;number of records>
-       - &lt;number of records> rows
-       - rows: &lt;number of records>
-       - rows number: &lt;number of records>
-       - row count: &lt;number of records>
-       - &lt;number of records> lines
-       - lines: &lt;number of records>
-       - lines number: &lt;number of records>
-       - line count: &lt;number of records>
+     - The records number row text should be "- records: &lt;number of records>"
      - The records number row should show the whole size of the log when the filter text input is empty
      - The records number row should show a number of filtered lines when the filter text input is not empty
      - It should correspond to design requirements [TODO: link should be here]()
@@ -53,7 +42,6 @@ I want to have the records number row between the filter text input and the log 
 Clear log button.<br>
 As a user, I want to run the clear log scenario by button.<br>
 I want to have a button on top of the right corner of the log text area.<br>
-It should be a less prominent part of the UI than the rest.<br>
    - Acceptance criteria:
      - It should be a less prominent part of the UI than the rest
      - It should be a small enough button with a symbol that let the user understand that it is a clear log button (it is discussable)
@@ -62,19 +50,18 @@ It should be a less prominent part of the UI than the rest.<br>
        - two rounded arrows
      - It should correspond to design requirements [TODO: link should be here]()
 5. Product Owner story. [TODO: issue reference]()<br>
-Bottom Panel.<br>
-As a PO, I want to make user able to watch information about app.<br>
-I want to have a button on the bottom of the Main screen.<br>
-It should be as prominent a part of the user interface as the rest.<br>
-As a User, I want to be able to watch information about app.<br>
-I want to have a button on the bottom of the Main screen.<br>
-It should be as prominent a part of the user interface as the rest.<br>
+**Info button**.<br>
+As a PO, I want to make the user able to open **About app screen** by button.<br>
+I want to have a button on the bottom of the Main screen, in the left half of the screen.<br>
    - Acceptance criteria:
-     - It should be a less prominent part of the UI than the rest
-     - It should be a small enough button with a symbol that let the user understand that it is a clear log button (it is discussable)
-       For example:
-       - recycle bin
-       - two rounded arrows
+     - It should be as prominent a part of the user interface as the rest
+     - It should correspond to design requirements [TODO: link should be here]()
+6. Product Owner story. [TODO: issue reference]()<br>
+**Quit button**.<br>
+As a User, I want to be able to quit the app by button.<br>
+I want to have a button on the bottom of the Main screen, in the right half of the screen.<br>
+   - Acceptance criteria:
+     - It should be as prominent a part of the user interface as the rest
      - It should correspond to design requirements [TODO: link should be here]()
 <br>
 

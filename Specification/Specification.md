@@ -40,7 +40,7 @@ I want to have the **records number row** between the **filter text input** and 
      - It should correspond to design requirements [TODO: link should be here]()
 4. User story. [TODO: issue reference]()<br>
 **Clear log button**.<br>
-As a user, I want to run the clear log scenario by button.<br>
+As a user, I want to run the **clear log scenario** by button.<br>
 I want to have a button on top of the right corner of the **log text area**.<br>
    - Acceptance criteria:
      - It should be a less prominent part of the UI than the rest
@@ -56,7 +56,7 @@ I want to have the **info button** right under the **log text area**.<br>
    - Acceptance criteria:
      - It should be as prominent a part of the UI as the rest
      - It should be on the bottom area in the left half of the screen
-     - It should run the **open About app screen scenario**
+     - It should run the **show About scenario**
      - It should correspond to design requirements [TODO: link should be here]()
 6. User story. [TODO: issue reference]()<br>
 **Quit button**.<br>
@@ -65,11 +65,11 @@ I want to have the **quit button** right under the **log text area**.<br>
    - Acceptance criteria:
      - It should be as prominent a part of the user interface as the rest
      - It should be on the bottom area in the right half of the screen
-     - It should run the **Quit app scenario**
+     - It should run the **quit app scenario**
      - It should correspond to design requirements [TODO: link should be here]()
 <br>
 
-#### About App screen
+#### About app screen
 1. User story. [TODO: issue reference]()<br>
 About App title.<br>
 2. User story. [TODO: issue reference]()<br>
@@ -82,9 +82,9 @@ About App info content.<br>
 
 #### Windows
 1. User story. [TODO: issue reference]()<br>
-Windows background.<br>
+**Windows background**.<br>
 2. User story. [TODO: issue reference]()<br>
-Confirmation window for clear log.<br>
+**Clear log confirmation window**.<br>
 As a user, I want to have an option to clear the log through the confirmation window to be able to confirm or cancel the action.<br>
    - Acceptance criteria:
      - In the window, there should be a question "Are you sure you want to clear the log?" without quotes
@@ -101,19 +101,16 @@ As a user, I want to have an option to clear the log through the confirmation wi
 
 #### Scenarios
 1. User story. [TODO: issue reference]()<br>
-**On device button event** scenario.<br>
+**On device button event scenario**.<br>
 2. User story. [TODO: issue reference]()<br>
-**Clear log menu item** scenario.<br>
-3. User story. [TODO: issue reference]()<br>
-**Clear log** scenario.<br>
+**Clear log scenario**.<br>
 As a user, I want to have an option to clear the log.<br>
-When a clear log scenario is called - it opens the confirmation window for clear log.<br>
-4. User story. [TODO: issue reference]()<br>
-Show About scenario.<br>
-5. User story. [TODO: issue reference]()<br>
-Open Menu scenario.<br>
-6. User story. [TODO: issue reference]()<br>
-Close Menu scenario.<br>
-<br>
+When a **clear log scenario** is called - it opens the **Clear log confirmation window**.<br>
+3. User story. [TODO: issue reference]()<br>
+**Show About scenario**.<br>
+3. User story. [TODO: issue reference]()<br>
+**Close About scenario**.<br>
 
-clear log button
+5. User story. [TODO: issue reference]()<br>
+**Quit app scenario**.<br>
+<br>

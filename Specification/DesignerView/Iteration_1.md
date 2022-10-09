@@ -6,7 +6,7 @@ As a result of the first iteration, the following design option was proposed:
 
 
 Link for more details:
-https://www.figma.com/file/Ofc3SPUji9Zws3sCSE52p9/Sleeping-app-designcode?node-id=23%3A27
+https://www.figma.com/file/CCTH8dHGP8VzqF1XrrqAWu/ButtonLog-UI?node-id=0%3A1
 
 As a result, product owner made a number of clarifications about the UI interface:
 -The color scheme has been changed and is now black and white and its shades

@@ -9,7 +9,10 @@ To achieve the result, the following criteria were set for ux markup:
 
 Based on UX requirements and product owner requirements, the following specifications were developed for the UI interface: 
 Style: minimalism. 
+Color palette: white, black and shades.
 
+After clarification of the task, the following changes were made to the customer's UX scheme:
+-side drop-down menu was removed and replaced with a lower central menu
 
 The UX scheme was based on the scheme from ProdOwnerView
 

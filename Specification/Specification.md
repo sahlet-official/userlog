@@ -70,13 +70,18 @@ I want to have the **quit button** right under the **log text area**.<br>
 1. Product Owner story. [TODO: issue reference]()<br>
 **About app title**.<br>
 As a PO, I want to make the user understand what this screen is about.<br>
-I want to have "".<br>
+I want to have "About" text on the top of the screen.<br>
    - Acceptance criteria:
-     - it should be **as** prominent a part of the user interface as the rest;
-     - it should be on the bottom area in the **right** half of the screen;
+     - it should be **more** prominent a part of the user interface than the rest;
      - it should correspond to design requirements [TODO: link should be here]();
 2. User story. [TODO: issue reference]()<br>
 **About app info close button**.<br>
+As a User, I want to be able to launch the **close About scenario** by button.<br>
+I want to have the **about app info close button** on the top of the screen.<br>
+   - Acceptance criteria:
+     - it should be **as** prominent a part of the user interface as the rest;
+     - when the system Back button was pressed - it also should launch the **close About scenario**;
+     - it should correspond to design requirements [TODO: link should be here]();
 3. User story. [TODO: issue reference]()<br>
 **About app info text area**.<br>
 It should be scrollable if the content does not fit in the area
@@ -98,9 +103,9 @@ As a user, I want to have an option to clear the log through the confirmation wi
      - options should be pressable and look different for the user,
        not only text but some additional properties should be different (it is discussable),
        (for example, the Cancel option can be black and the Clear option can be red);
-     - when Cancel was pressed - the window close;
+     - when Cancel was pressed - the window closes;
      - when Clear was pressed - the log is cleared and then the window closes;
-     - when system                                                 was pressed - the window close;
+     - when the system Back button was pressed - the window closes;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
 
@@ -110,7 +115,7 @@ As a user, I want to have an option to clear the log through the confirmation wi
 2. User story. [TODO: issue reference]()<br>
 **Clear log scenario**.<br>
 As a user, I want to have an option to clear the log.<br>
-When a **clear log scenario** is launched - it opens the **Clear log confirmation window**.<br>
+When a **clear log scenario** is launched - it opens the **clear log confirmation window**.<br>
 4. User story. [TODO: issue reference]()<br>
 **On filter text changed scenario**.<br>
 4. User story. [TODO: issue reference]()<br>

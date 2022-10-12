@@ -18,6 +18,7 @@ I want to see it like log.<br>
      - when the **log text area** is empty - there should be transparent or gray text "log..." without quotes;
      - when the **log text area** is not empty - there should not be text "log...", only log text;
      - lines should look like this: &lt;name of button> &lt;date and time of pressed event>;
+     - it should fill all the free space on the screen without crowding out the rest of the UI elements;
      - it should be scrollable if the content does not fit in the area;
      - it should correspond to design requirements [TODO: link should be here]();
 2. User story. [TODO: issue reference]()<br>
@@ -53,7 +54,7 @@ I want to have a button on top of the right corner of the **log text area**.<br>
 As a PO, I want to make the user able to launch the **show About scenario** by button.<br>
 I want to have the **info button** right under the **log text area**.<br>
    - Acceptance criteria:
-     - it should be **as** prominent a part of the UI as the rest;
+     - it should be **as** prominent part of the UI as the rest;
      - it should be on the bottom area in the **left** half of the screen;
      - it should correspond to design requirements [TODO: link should be here]();
 6. User story. [TODO: issue reference]()<br>
@@ -61,7 +62,7 @@ I want to have the **info button** right under the **log text area**.<br>
 As a User, I want to be able to launch the **quit app scenario** by button.<br>
 I want to have the **quit button** right under the **log text area**.<br>
    - Acceptance criteria:
-     - it should be **as** prominent a part of the user interface as the rest;
+     - it should be **as** prominent part of the UI as the rest;
      - it should be on the bottom area in the **right** half of the screen;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
@@ -72,18 +73,23 @@ I want to have the **quit button** right under the **log text area**.<br>
 As a PO, I want to make the user understand what this screen is about.<br>
 I want to have "About" text on the top of the screen.<br>
    - Acceptance criteria:
-     - it should be **more** prominent a part of the user interface than the rest;
+     - it should be **more** prominent part of the UI than the rest;
      - it should correspond to design requirements [TODO: link should be here]();
 2. User story. [TODO: issue reference]()<br>
 **About app info close button**.<br>
-As a User, I want to be able to launch the **close About scenario** by button.<br>
+As a User, I want to be able to close **About app screen** by button.<br>
 I want to have the **about app info close button** on the top of the screen.<br>
    - Acceptance criteria:
-     - it should be **as** prominent a part of the user interface as the rest;
-     - when the system Back button was pressed - it also should launch the **close About scenario**;
+     - it should be **as** prominent part of the UI as the rest;
+     - when the system Back button was pressed - it also closes **About app screen**;
      - it should correspond to design requirements [TODO: link should be here]();
 3. User story. [TODO: issue reference]()<br>
 **About app info text area**.<br>
+As a PO, I want to make the user able to read information about app.<br>
+   - Acceptance criteria:
+     - it should fill all the free space on the screen without crowding out the rest of the UI elements;
+     - it should be scrollable if the content does not fit in the area;
+     - it should correspond to design requirements [TODO: link should be here]();
 It should be scrollable if the content does not fit in the area
 4. User story. [TODO: issue reference]()<br>
 **About app info content**.<br>
@@ -120,8 +126,6 @@ When a **clear log scenario** is launched - it opens the **clear log confirmatio
 **On filter text changed scenario**.<br>
 4. User story. [TODO: issue reference]()<br>
 **Show About scenario**.<br>
-5. User story. [TODO: issue reference]()<br>
-**Close About scenario**.<br>
 6. User story. [TODO: issue reference]()<br>
 **Quit app scenario**.<br>
 <br>

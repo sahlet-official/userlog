@@ -121,14 +121,34 @@ As a user, I want to have an option to clear the log through the confirmation wi
 #### Scenarios
 1. Developer story. [TODO: issue reference]()<br>
 **On device button event scenario**.<br>
+When **on device button event scenario** is launched - then the storage of the log should be updated,<br>
+and if the app is running - then the view of the log should be updated regarding the **filter text input** content.<br>
 2. User story. [TODO: issue reference]()<br>
 **Clear log scenario**.<br>
 As a user, I want to have an option to clear the log.<br>
-When a **clear log scenario** is launched - it opens the **clear log confirmation window**.<br>
+When **clear log scenario** is launched - it opens the **clear log confirmation window**.<br>
 4. User story. [TODO: issue reference]()<br>
 **On filter text changed scenario**.<br>
-4. User story. [TODO: issue reference]()<br>
+5. Product Owner story. [TODO: issue reference]()<br>
 **Show About scenario**.<br>
+When **show About scenario** is launched - it **About app screen** opens.<br>
 6. User story. [TODO: issue reference]()<br>
 **Quit app scenario**.<br>
+As a user, I want to have an option to quit tha app.<br>
+When a **quit app scenario** is launched - then the app closes.<br>
 <br>
+
+#### Events
+1. Developer story. [TODO: issue reference]()<br>
+**On device button event**.<br>
+When some device physical button was pressed - the **On device button event scenario** should be launched.
+
+#### States
+1. Developer story. [TODO: issue reference]()<br>
+**Quit state**.<br>
+If the app is not running, there should be background process<br>
+to be able to handle **on device button event**.
+1. Developer story. [TODO: issue reference]()<br>
+**Open state**.<br>
+If the app is not running, there should be background process<br>
+to be able to handle **on device button event**.

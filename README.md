@@ -1,5 +1,5 @@
 # Buttonlog
-Mobile App for logging device button events.
+Mobile App for logging device buttons events.
 
 The App logs the name of physical button and the time when it was pressed.<br>
 You can view your button events log and filter records.

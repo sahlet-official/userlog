@@ -151,6 +151,7 @@ When some device physical button was pressed - the **on device button event scen
 4. Developer story. [TODO: issue reference]()<br>
 **On opened**.<br>
 ...
+<br>
 
 #### States
 **Closed state** - the app is closed.<br>
@@ -160,3 +161,4 @@ When some device physical button was pressed - the **on device button event scen
 **Closed state**.<br>
 If the app is not running, there should be background process<br>
 to be able to handle **on device button event**.
+<br>

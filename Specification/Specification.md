@@ -1,4 +1,4 @@
-# Button log specification
+# Buttonlog specification
 
 ## Description
 

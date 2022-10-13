@@ -74,6 +74,7 @@ As a User, I want to be able to close **About app screen** by button.<br>
 I want to have the **about app info close button** on the top of the screen.<br>
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;
+     - it should be not scrollable;
      - when the system Back button was pressed - it also closes **About app screen**;
      - it should correspond to design requirements [TODO: link should be here]();
 2. Product Owner story. [TODO: issue reference]()<br>

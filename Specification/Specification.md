@@ -97,8 +97,6 @@ It should be scrollable if the content does not fit in the area
 
 #### Windows
 1. User story. [TODO: issue reference]()<br>
-**Windows background**.<br>
-2. User story. [TODO: issue reference]()<br>
 **Clear log confirmation window**.<br>
 As a user, I want to have an option to clear the log through the confirmation window to be able to confirm or cancel the action.<br>
    - Acceptance criteria:

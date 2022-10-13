@@ -119,7 +119,7 @@ As a user, I want to have an option to clear the log through the confirmation wi
 <br>
 
 #### Scenarios
-1. User story. [TODO: issue reference]()<br>
+1. Developer story. [TODO: issue reference]()<br>
 **On device button event scenario**.<br>
 2. User story. [TODO: issue reference]()<br>
 **Clear log scenario**.<br>

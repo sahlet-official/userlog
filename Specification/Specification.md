@@ -43,7 +43,7 @@ I want to have the **records number row** between the **filter text input** and 
      - it should correspond to design requirements [TODO: link should be here]();
 4. User story. [TODO: issue reference]()<br>
 **Clear log button**.<br>
-As a user, I want to launche the **clear log scenario** by button.<br>
+As a user, I want to launch the **clear log scenario** by button.<br>
 I want to have a button on top of the right corner of the **log text area**.<br>
    - Acceptance criteria:
      - it should be a **less** prominent part of the UI than the rest

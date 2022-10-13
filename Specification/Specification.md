@@ -89,7 +89,7 @@ As a PO, I want to make the user able to read information about app.<br>
 As a PO, I want to make the user able to read information about app.<br>
    - Acceptance criteria:
      - it should be taken from [AboutAppScreenContent.md](./AboutAppScreenContent.md);
-     - all links, bullets and bold text must match as described in the document [AboutAppScreenContent.md](./AboutAppScreenContent.md);
+     - all links, bullets, and bold text must match as described in the document [AboutAppScreenContent.md](./AboutAppScreenContent.md);
 4. Product Owner story. [TODO: issue reference]()<br>
 **About app title**.<br>
 As a PO, I want to make the user understand what this screen is about.<br>

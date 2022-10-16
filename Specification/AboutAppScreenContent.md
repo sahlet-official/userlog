@@ -6,7 +6,7 @@ With **Buttonlog** you can view your button events log and filter records.<br>
 ## Motivation
 The app was made as a [proof of concept](https://en.wikipedia.org/wiki/Proof_of_concept) for another app - [**Sleeplog**](https://github.com/sahlet-official/sleeplog).<br>
 The idea was to prove that it's convenient to mark when you did not sleep by pressing the button<br>
-before you sleep and in the morning app will show you when it was last pressed.<br>
+before you sleep and in the morning app will show you when the last press was.<br>
 Also, the Buttonlog app is the first iteration of [Sleeplog app development](https://github.com/sahlet-official/sleeplog).<br>
 The team of authors of the program consists mainly of students.<br>
 So it was decided to split the development process into iterations and execute the implementation step by step.<br>

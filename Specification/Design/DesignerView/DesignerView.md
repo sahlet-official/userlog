@@ -7,10 +7,10 @@ To achieve the result, the following criteria were set for ux markup:
 - ux markup should have a minimum of screens.
 - design should be implementable for developers.
 
-Based on UX requirements and product owner requirements, the following specifications were developed for the UI interface:
+Based on UX requirements and Product Owner requirements, the following specifications were developed for the UI interface:
 - style: minimalism.
 
-The UX scheme was based on the scheme from ProdOwnerView
+The UX scheme was based on the scheme from [ProdOwnerView.md](./Specification/Design/ProdOwnerView/ProdOwnerView.md)
 
 After clarification of the task, the following changes were made to the customer's UX scheme:
 - the side drop-down menu was removed and replaced with a lower central menu
@@ -18,6 +18,13 @@ After clarification of the task, the following changes were made to the customer
 After 1st iteration of Ui developing such changes were made:
 - color palette: white, black and shades.
 
-The development of the UI interface was divided into iterations, each of which will be accompanied by consultations with the product owner and development team.
+The development of the UI interface was divided into iterations.
 
-The results of each iteration will be contributed to the repository, accompanied by a link to the Figma document.
+The results of each iteration have been added to the repository, accompanied by a link to the [Figma](https://www.figma.com/) document.
+
+As a result, there is such list of iterations:
+
+[Iteration1.md](./Specification/Design/DesignerView/Iteration1.md)
+[Iteration2.md](./Specification/Design/DesignerView/Iteration2.md)
+[Iteration3.md](./Specification/Design/DesignerView/Iteration3.md)
+The last iteration was taken as the resulting [approved design]_(./Specification/Design/ApprovedDesign/ApprovedDesign.md)

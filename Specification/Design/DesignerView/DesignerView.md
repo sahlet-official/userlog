@@ -24,7 +24,8 @@ The results of each iteration have been added to the repository, accompanied by 
 
 As a result, there is such list of iterations:
 
-[Iteration1.md](./Specification/Design/DesignerView/Iteration1.md)
-[Iteration2.md](./Specification/Design/DesignerView/Iteration2.md)
-[Iteration3.md](./Specification/Design/DesignerView/Iteration3.md)
+- [Iteration1.md](./Specification/Design/DesignerView/Iteration1.md)
+- [Iteration2.md](./Specification/Design/DesignerView/Iteration2.md)
+- [Iteration3.md](./Specification/Design/DesignerView/Iteration3.md)
+
 The last iteration was taken as the resulting [approved design]_(./Specification/Design/ApprovedDesign/ApprovedDesign.md)

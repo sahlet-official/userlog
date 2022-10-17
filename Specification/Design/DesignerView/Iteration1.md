@@ -9,7 +9,7 @@ As a result of the first iteration, the following design option was proposed:
 
 
 As a result, product owner made a number of clarifications about the UI interface:
-- the color scheme has been changed to black and white and its shades.
+- the color scheme has been changed to black and white and its shades;
 
 Changes in UX scheme: 
-- left drop-down menu was changed to bottom menu.
+- left drop-down menu was changed to bottom menu;

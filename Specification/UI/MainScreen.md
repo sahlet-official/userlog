@@ -55,7 +55,7 @@ I want to have the **info button** right under the **[log textarea](./MainScreen
 
 ### Quit button
 As a User, I want to be able to launch the [**quit app scenario** - TODO: make a link]() by button.<br>
-I want to have the **quit button** right under the **log textarea**.<br>
+I want to have the **quit button** right under the **[log textarea](./MainScreen.md#log-textarea)**.<br>
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;
      - it should be on the bottom area in the **right** half of the screen;

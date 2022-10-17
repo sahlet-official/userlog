@@ -13,6 +13,17 @@ I want to see it like log.<br>
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
 
+### Log textarea scrollbar
+As a User, I want to be able to scroll **[log textarea](./MainScreen.md#log-textarea)** by scrollbar.<br>
+   - Acceptance criteria:
+     - it should be **as** prominent part of the UI as the rest;
+     - it should be on the **right** part of the screen (inside or outside the **[log textarea](./MainScreen.md#log-textarea)** - it is discussable);
+     - it should be invisible when the content height size is **less** than twice the height of the **[log textarea](./MainScreen.md#log-textarea)**;
+     - it should become visible when the content height size is **more or equal** to twice the height of the **[log textarea](./MainScreen.md#log-textarea)**;
+     - the **[log textarea](./MainScreen.md#log-textarea)** content should remain scrollable regardless of scrollbar visibility;
+     - it should correspond to design requirements [TODO: link should be here]();
+<br>
+
 ### Filter textinput
 As a User, I want to have an option to use text search by the log.<br>
 I want the **filter textinput** to be at the top above the **[log textarea](./MainScreen.md#log-textarea)**,<br>
@@ -59,16 +70,5 @@ I want to have the **quit button** right under the **[log textarea](./MainScreen
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;
      - it should be on the bottom area in the **right** half of the screen;
-     - it should correspond to design requirements [TODO: link should be here]();
-<br>
-
-### Log textarea scrollbar
-As a User, I want to be able to scroll **[log textarea](./MainScreen.md#log-textarea)** by scrollbar.<br>
-   - Acceptance criteria:
-     - it should be **as** prominent part of the UI as the rest;
-     - it should be on the **right** part of the screen (inside or outside the **[log textarea](./MainScreen.md#log-textarea)** - it is discussable);
-     - it should be invisible when the content height size is **less** than twice the height of the **[log textarea](./MainScreen.md#log-textarea)**;
-     - it should become visible when the content height size is **more or equal** to twice the height of the **[log textarea](./MainScreen.md#log-textarea)**;
-     - the **[log textarea](./MainScreen.md#log-textarea)** content should remain scrollable regardless of scrollbar visibility;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>

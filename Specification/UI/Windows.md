@@ -1,7 +1,8 @@
 # UI requirements for app windows
-1. User story. [TODO: issue reference]()<br>
-**Clear log confirmation window**.<br>
-As a user, I want to have an option to clear the log through the confirmation window to be able to confirm or cancel the action.<br>
+<br>
+
+### Clear log confirmation window
+As a User, I want to have an option to clear the log through the confirmation window to be able to confirm or cancel the action.<br>
    - Acceptance criteria:
      - in the window, there should be a question "Are you sure you want to clear the log?" without quotes;
      - in the window there should be two options that the user can select:

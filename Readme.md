@@ -1,4 +1,4 @@
-# About
+# Buttonlog
 **Buttonlog** is a free [open-source](https://github.com/sahlet-official/buttonlog) mobile app for logging device buttons events.<br>
 **Buttonlog** is developed and published by [**Freedom Toys**](https://www.linkedin.com/company/freedom-toys/) company.<br>
 With **Buttonlog** you can view your button events log and filter records.<br>

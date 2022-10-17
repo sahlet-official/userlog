@@ -13,25 +13,25 @@ I want to see it like log.<br>
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
 
-### Filter text input
+### Filter textinput
 As a User, I want to have an option to use text search by the log.<br>
-I want the **filter text input** to be at the top above the **[log textarea](./MainScreen.md#log-textarea)**,<br>
+I want the **filter textinput** to be at the top above the **[log textarea](./MainScreen.md#log-textarea)**,<br>
 where I can write text and only lines with this text will be in the log view.<br>
    - Acceptance criteria:
-     - when the **filter text input** is empty - there should be transparent or gray text "Filter..." without quotes;
-     - when the **filter text input** is not empty - there should not be text "Filter...", only entered text;
-     - when the text inside the **filter text input** was changed - the [**on filter text changed scenario** - TODO: make a link]() should be launched;
+     - when the **filter textinput** is empty - there should be transparent or gray text "Filter..." without quotes;
+     - when the **filter textinput** is not empty - there should not be text "Filter...", only entered text;
+     - when the text inside the **filter textinput** was changed - the [**on filter text changed scenario** - TODO: make a link]() should be launched;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
 
 ### Records number row
 As a User, I want to have an option to see the number of records in the log.<br>
-I want to have the **records number row** between the **[filter text input](./MainScreen.md#filter-text-input)** and the **[log textarea](./MainScreen.md#log-textarea)**.<br>
+I want to have the **records number row** between the **[filter textinput](./MainScreen.md#filter-textinput)** and the **[log textarea](./MainScreen.md#log-textarea)**.<br>
    - Acceptance criteria:
      - it should be a **less** prominent part of the UI than the rest;
      - the **records number row** text should be "- records: &lt;number of records>";
-     - the **records number row** should show the whole size of the log when the **[filter text input](./MainScreen.md#filter-text-input)** is empty;
-     - the **records number row** should show a number of filtered lines when the **[filter text input](./MainScreen.md#filter-text-input)** is not empty;
+     - the **records number row** should show the whole size of the log when the **[filter textinput](./MainScreen.md#filter-textinput)** is empty;
+     - the **records number row** should show a number of filtered lines when the **[filter textinput](./MainScreen.md#filter-textinput)** is not empty;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
 

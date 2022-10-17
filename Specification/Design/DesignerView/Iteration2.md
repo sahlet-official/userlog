@@ -10,16 +10,16 @@ As a result of the this iteration, the following design option was proposed:
 As a result, product owner made a number of clarifications about the UI interface: 
 
 Main screen:
-- change about icon to make it more informative.
-- change the position of recycle bin.
-- extend log area.
-- remove contrasting elements.
+- change about icon to make it more informative;
+- change the position of recycle bin;
+- extend log area;
+- remove contrasting elements;
 
 About screen:
-- change exit button to make it easier to acces.
-- resize some other elements.
+- change exit button to make it easier to acces;
+- resize some other elements;
 
 Clear Log dialog:
-- change color and position of the buttons.
+- change color and position of the buttons;
 
-Changes in UX scheme: none
+Changes in UX scheme: none.

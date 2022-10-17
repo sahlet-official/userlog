@@ -20,7 +20,7 @@ where I can write text and only lines with this text will be in the log view.<br
    - Acceptance criteria:
      - when the **filter text input** is empty - there should be transparent or gray text "Filter..." without quotes;
      - when the **filter text input** is not empty - there should not be text "Filter...", only entered text;
-     - when the text inside the **filter text input** was changed - the **on filter text changed scenario - TODO: make a link** should be launched;
+     - when the text inside the **filter text input** was changed - the [**on filter text changed scenario** - TODO: make a link]() should be launched;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>
 
@@ -36,7 +36,7 @@ I want to have the **records number row** between the **[filter text input](./Ma
 <br>
 
 ### Clear log button
-As a user, I want to launch the **clear log scenario** by button.<br>
+As a user, I want to launch the [**clear log scenario** - TODO: make a link]() by button.<br>
 I want to have a button on top of the right corner of the **[log text area](./MainScreen.md#log-text-area)**.<br>
    - Acceptance criteria:
      - it should be a **less** prominent part of the UI than the rest
@@ -45,7 +45,7 @@ I want to have a button on top of the right corner of the **[log text area](./Ma
 <br>
 
 ### Info button
-As a PO, I want to make the user able to launch the **show About scenario - TODO: make a link** by button.<br>
+As a PO, I want to make the user able to launch the [**show About scenario** - TODO: make a link]() by button.<br>
 I want to have the **info button** right under the **[log text area](./MainScreen.md#log-text-area)**.<br>
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;
@@ -54,10 +54,19 @@ I want to have the **info button** right under the **[log text area](./MainScree
 <br>
 
 ### Quit button
-As a User, I want to be able to launch the **quit app scenario** by button.<br>
+As a User, I want to be able to launch the [**quit app scenario** - TODO: make a link]() by button.<br>
 I want to have the **quit button** right under the **log text area**.<br>
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;
      - it should be on the bottom area in the **right** half of the screen;
+     - it should correspond to design requirements [TODO: link should be here]();
+<br>
+
+### Log text area scrollbar
+As a User, I want to be able to scroll **[log text area](./MainScreen.md#log-text-area)** by scrollbar.<br>
+   - Acceptance criteria:
+     - it should be **as** prominent part of the UI as the rest;
+     - it should be on the **right** part of the screen (inside or outside **[log text area](./MainScreen.md#log-text-area)** - it is discussable);
+     - it should become visible when **[log text area](./MainScreen.md#log-text-area)**;
      - it should correspond to design requirements [TODO: link should be here]();
 <br>

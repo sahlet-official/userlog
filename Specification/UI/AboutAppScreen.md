@@ -32,6 +32,6 @@ I want to have a title on the top of the screen.<br>
    - Acceptance criteria:
      - it should be **more** prominent part of the UI than the rest;
      - it should be taken from [AboutAppScreenContent.md](./../AboutAppScreenContent.md);
-     - it should be scrollable with the rest of **About app info content** (so it can also be placed in **About app info text area**);
+     - it should be scrollable with the rest of **[About app info content](./AboutAppScreen.md#about-app-info-content)** (so it can also be placed in **[About app info text area](./AboutAppScreen.md#about-app-info-text-area)**);
      - it should correspond to design requirements [TODO: link should be here]();
 <br>

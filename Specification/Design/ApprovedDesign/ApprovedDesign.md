@@ -9,7 +9,8 @@ Raw images for easier viewing:
 
 **Main Screen:**
 
-![main](https://user-images.githubusercontent.com/82474250/195093685-a1d9441a-b9ac-4aa5-8cac-9ee848fc196a.png)
+![main](https://user-images.githubusercontent.com/82474250/196437967-7d4e1d49-fe57-4e92-9651-b0ee026dbc79.png)
+
 
 **About Screen:**
 

@@ -1,8 +1,8 @@
-ButtonLog UX/UI View by Designer
+Buttonlog UX/UI View by Designer.
 
-Task: develop ux/ui for the button log application.
+Task: develop UX/UI for the Buttonlog application.
 
-To achieve the result, the following criteria were set for ux markup:
+To achieve the result, the following criteria were set for UX markup:
 - design should be user-oriented;
 - ux markup should have a minimum of screens;
 - design should be implementable for developers;
@@ -15,7 +15,7 @@ The UX scheme was based on the scheme from [ProdOwnerView.md](./Specification/De
 After [clarification](./Specification/Design/DesignerView/Iteration1.md) of the task, the following changes were made to the customer's UX scheme:
 - the side drop-down menu was removed and replaced with a lower central menu;
 
-After 1st iteration of Ui developing such changes were made:
+After 1st iteration of UI developing such changes were made:
 - color palette: white, black and shades;
 
 The development of the UI interface was divided into iterations.

@@ -1,4 +1,4 @@
-This document is the result of the third (the last) iteration of creating a UI interface for the ButtonLog application.
+This document is the result of the third (the last) iteration of creating a UI interface for the Buttonlog application.
 
 As a result of the third iteration, the following design option was proposed:
 

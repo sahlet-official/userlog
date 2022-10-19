@@ -1,7 +1,7 @@
-This file represents final result of creating UX/UI for button log aplication. 
+This file represents final result of creating UX/UI for Buttonlog aplication. 
 
-Style: minimalism.
-Color Palette: white, black, gray.
+Style: minimalism;
+Color Palette: white, black, gray;
 
 Figma [link](https://www.figma.com/file/CCTH8dHGP8VzqF1XrrqAWu/ButtonLog-UI?node-id=4%3A267) for review.
 

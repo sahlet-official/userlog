@@ -10,4 +10,4 @@ As a result of the third iteration, the following design option was proposed:
 
 The result of this iteration was approved as ready for implementation.
 
-The [approved design](./Specification/Design/ApprovedDesign/ApprovedDesign.md) will be divided into source files for developers.
+The [approved design](./../ApprovedDesign#readme) will be divided into source files for developers.

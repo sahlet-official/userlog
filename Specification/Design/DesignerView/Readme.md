@@ -8,7 +8,7 @@ To achieve the result, the following criteria were set for UX markup:
 - design should be implementable for developers;
 
 Based on UX requirements and Product Owner requirements, the following specifications were developed for the UI interface:
-- style: minimalism.
+- style: minimalism;
 
 The UX scheme was based on the scheme from [ProdOwnerView.md](./../ProdOwnerView#readme).
 

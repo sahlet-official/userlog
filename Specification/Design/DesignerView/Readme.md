@@ -10,7 +10,7 @@ To achieve the result, the following criteria were set for UX markup:
 Based on UX requirements and Product Owner requirements, the following specifications were developed for the UI interface:
 - style: minimalism.
 
-The UX scheme was based on the scheme from [ProdOwnerView.md](./../ProdOwnerView#readme)
+The UX scheme was based on the scheme from [ProdOwnerView.md](./../ProdOwnerView#readme).
 
 After [clarification](./Specification/Design/DesignerView/Iteration1.md) of the task, the following changes were made to the customer's UX scheme:
 - the side drop-down menu was removed and replaced with a lower central menu;

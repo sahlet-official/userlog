@@ -7,7 +7,7 @@ As a result of the this iteration, the following design option was proposed:
 
 [Link](https://www.figma.com/file/CCTH8dHGP8VzqF1XrrqAWu/ButtonLog-UI?node-id=1%3A136) for more details. 
 
-As a result, product owner made a number of clarifications about the UI interface: 
+As a result, Product Owner made a number of clarifications about the UI interface: 
 
 Main screen:
 - change about icon to make it more informative;

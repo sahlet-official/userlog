@@ -8,7 +8,7 @@ As a result of the first iteration, the following design option was proposed:
 [Link](https://www.figma.com/file/CCTH8dHGP8VzqF1XrrqAWu/ButtonLog-UI?node-id=0%3A1) for more details.
 
 
-As a result, product owner made a number of clarifications about the UI interface:
+As a result, Product Owner made a number of clarifications about the UI interface:
 - the color scheme has been changed to black and white and its shades;
 
 Changes in UX scheme: 

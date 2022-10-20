@@ -28,4 +28,4 @@ As a result, there is such list of iterations:
 - [Iteration2.md](./Iteration2.md);
 - [Iteration3.md](./Iteration3.md);
 
-The last iteration was taken as the resulting [approved design](./Specification/Design/ApprovedDesign/ApprovedDesign.md).
+The last iteration was taken as the resulting [approved design](./../ApprovedDesign#readme).

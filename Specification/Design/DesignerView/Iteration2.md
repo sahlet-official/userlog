@@ -7,10 +7,10 @@ Main screen:<br>
 - change about icon to make it more informative;<br>
 - change the position of recycle bin;<br>
 - extend log area;<br>
-- remove contrasting elements;<br>
+- remove contrasting elements;<br><br>
 About screen:<br>
 - change exit button to make it easier to acces;<br>
-- resize some other elements;<br>
+- resize some other elements;<br><br>
 Clear Log dialog:<br>
 - change color and position of the buttons;<br>
 Changes in UX scheme: none.<br>

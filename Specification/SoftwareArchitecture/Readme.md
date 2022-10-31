@@ -13,11 +13,68 @@ https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
 heavyweight but fundamrntsl and scalable:
 https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
 
-other:
+other (read more to decide):
 injector
 - похоже больше на service locator чем на DI
    https://pub.dev/packages/injector
 - https://github.com/google/inject.dart
+- https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
+- https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408
+- https://www.section.io/engineering-education/dependency-injection-in-flutter/
+- https://levelup.gitconnected.com/dependency-injection-in-dart-flutter-apps-3332f1a61041
+- https://dev.to/devtronic/dependency-injection-with-flutter-54pl
+- https://davidserrano.io/flutter-state-management-made-easy-with-provider-2-provider-as-a-dependency-injection-framework-and-multiprovider
+- https://geekyants.com/blog/understanding-dependency-injection-in-flutter-using-provider-143/
+- https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
+- https://pub.dev/packages/daggerito
+- https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
+- https://medium.com/flutter-community/flutter-fast-dependency-injection-5748d956bb5c
+- 
+
+flutter communication with android service:
+- https://www.google.com/search?q=flutter+communication+with+android+service&oq=flutter+communication+with+android+service&aqs=chrome..69i57.14473j0j7&sourceid=chrome&ie=UTF-8
+- https://medium.com/codechai/flutter-and-services-638ebfbbe47f
+- https://docs.flutter.dev/development/packages-and-plugins/background-processes
+- https://docs.flutter.dev/development/platform-integration/platform-channels
+- https://docs.flutter.dev/get-started/flutter-for/android-devs
+- https://dev.to/blazebrain/using-services-in-flutter-572h
+- https://youtu.be/exHgLlF9XlQ
+- https://learn.microsoft.com/en-us/answers/questions/772581/communication-services-for-flutter-apps.html
+- https://betterprogramming.pub/how-does-flutter-communicate-with-platform-native-code-2bb002f64121
+- https://medium.com/flutter-community/creating-services-to-do-the-work-in-your-flutter-app-93d6c4aa7697
+- https://pusher.com/tutorials/how-to-add-realtime-communication-to-flutter-with-pusher-channels/
+- 
+
+Best practices in Flutter:
+- https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
+- https://somniosoftware.com/post/top-10-flutter-best-practices
+- https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
+- https://www.mindinventory.com/blog/flutter-development-best-practices/
+- https://verygood.ventures/blog/very-good-flutter-architecture
+- https://docs.flutter.dev/resources/architectural-overview
+- https://viblo.asia/p/what-are-the-key-strategies-and-best-practices-that-simplify-flutter-app-development-3kY4gn2OVAe
+- https://blog.logrocket.com/complete-guide-flutter-architecture/
+- https://surf.dev/flutter-architecture-guide/
+- https://codewithandrea.com/articles/flutter-repository-pattern/
+- https://dev.to/noureldinshobier/building-scalable-flutter-apps-architecture-styling-conventions-state-management-40c9
+- https://www.mobindustry.net/blog/how-to-implement-the-bloc-architecture-in-flutter-benefits-and-best-practices/
+- https://radixweb.com/blog/overview-of-flutter-architecture
+- https://cheesecakelabs.com/blog/architect-flutter-projects/
+- https://dev.to/noureldinshobier/building-scalable-flutter-apps-architecture-styling-conventions-state-management-40c9
+- https://www.altexsoft.com/blog/engineering/pros-and-cons-of-flutter-app-development/
+- https://blog.back4app.com/flutter-alternatives/
+- https://itnext.io/scalable-state-management-on-flutter-using-stacked-architecture-ac2a5d419eaa
+- https://flutterawesome.com/a-modular-app-architecture-that-can-be-scalable-as-the-time-passes/
+- https://verygood.ventures/blog/very-good-flutter-architecture
+- https://medium.com/@sushaanshakya88/maintaining-scalable-architecture-in-flutter-6bc0524d3864
+- https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
+- https://medium.com/@nikilapi/i-found-the-perfect-architecture-for-flutter-apps-59fc2dc8f00f
+- https://stackoverflow.com/questions/63677649/flutter-best-architecture-patterns
+- https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
+- https://medium.flutterdevs.com/design-patterns-in-flutter-part-2-mvp-e17b3be2e51b
+- https://medium.flutterdevs.com/design-patterns-in-flutter-part-2-mvp-e17b3be2e51b
+- https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2
+- 
 
 
 

@@ -1,4 +1,38 @@
-# Software Architecture isn't ready
+# Software Architecture isn't ready (Draft 1)
+
+some info:
+IoC container Android:
+https://developer.android.com/training/dependency-injection
+https://developer.android.com/training/dependency-injection/hilt-android
+
+IoC container Flutter:
+
+lightweight:
+https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
+
+heavyweight but fundamrntsl and scalable:
+https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
+
+other:
+injector
+- похоже больше на service locator чем на DI
+   https://pub.dev/packages/injector
+- https://github.com/google/inject.dart
+
+
+
+SOLID:
+https://youtube.com/playlist?list=PLmqFxxywkatQNWLG1IZYUhKoQrnuZHqaK
+
+MVC, MVP, MVVM:
+https://habr.com/ru/company/mobileup/blog/313538/?_ga=2.84742493.539951051.1666797625-951758729.1664898225
+https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
+![Image](https://user-images.githubusercontent.com/45210795/198054831-6a0b492a-f74c-4fc6-88c6-e3488402e63f.png)
+
+
+draw.io link:
+https://app.diagrams.net/#G17zhYh2qk37QgLhyynme0vzYZO9Z538Fd
+
 
 <br>
 <br>

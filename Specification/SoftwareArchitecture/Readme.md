@@ -5,47 +5,8 @@ IoC container Android:
 https://developer.android.com/training/dependency-injection
 https://developer.android.com/training/dependency-injection/hilt-android
 
-IoC container Flutter:
-
-lightweight:
-https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
-
-heavyweight but fundamrntsl and scalable:
-https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
-
-other (read more to decide):
-injector
-- похоже больше на service locator чем на DI
-   https://pub.dev/packages/injector
-- https://github.com/google/inject.dart
-- https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
-- https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408
-- https://www.section.io/engineering-education/dependency-injection-in-flutter/
-- https://levelup.gitconnected.com/dependency-injection-in-dart-flutter-apps-3332f1a61041
-- https://dev.to/devtronic/dependency-injection-with-flutter-54pl
-- https://davidserrano.io/flutter-state-management-made-easy-with-provider-2-provider-as-a-dependency-injection-framework-and-multiprovider
-- https://geekyants.com/blog/understanding-dependency-injection-in-flutter-using-provider-143/
-- https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
-- https://pub.dev/packages/daggerito
-- https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
-- https://medium.com/flutter-community/flutter-fast-dependency-injection-5748d956bb5c
-- 
-
-flutter communication with android service:
-- https://www.google.com/search?q=flutter+communication+with+android+service&oq=flutter+communication+with+android+service&aqs=chrome..69i57.14473j0j7&sourceid=chrome&ie=UTF-8
-- https://medium.com/codechai/flutter-and-services-638ebfbbe47f
-- https://docs.flutter.dev/development/packages-and-plugins/background-processes
-- https://docs.flutter.dev/development/platform-integration/platform-channels
-- https://docs.flutter.dev/get-started/flutter-for/android-devs
-- https://dev.to/blazebrain/using-services-in-flutter-572h
-- https://youtu.be/exHgLlF9XlQ
-- https://learn.microsoft.com/en-us/answers/questions/772581/communication-services-for-flutter-apps.html
-- https://betterprogramming.pub/how-does-flutter-communicate-with-platform-native-code-2bb002f64121
-- https://medium.com/flutter-community/creating-services-to-do-the-work-in-your-flutter-app-93d6c4aa7697
-- https://pusher.com/tutorials/how-to-add-realtime-communication-to-flutter-with-pusher-channels/
-- 
-
-Best practices in Flutter:
+**Best practices in Flutter**:
+- https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
 - https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
 - https://somniosoftware.com/post/top-10-flutter-best-practices
 - https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
@@ -70,11 +31,51 @@ Best practices in Flutter:
 - https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
 - https://medium.com/@nikilapi/i-found-the-perfect-architecture-for-flutter-apps-59fc2dc8f00f
 - https://stackoverflow.com/questions/63677649/flutter-best-architecture-patterns
-- https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
 - https://medium.flutterdevs.com/design-patterns-in-flutter-part-2-mvp-e17b3be2e51b
 - https://medium.flutterdevs.com/design-patterns-in-flutter-part-2-mvp-e17b3be2e51b
 - https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2
-- 
+
+<br>
+<br>
+<br>
+
+**IoC container Flutter**:
+- lightweight:
+  - https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
+- heavyweight but fundamrntsl and scalable:
+  - https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
+  - other (read more to decide):
+  - injector похоже больше на service locator чем на DI https://pub.dev/packages/injector
+  - https://github.com/google/inject.dart
+  - https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
+  - https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408
+  - https://www.section.io/engineering-education/dependency-injection-in-flutter/
+  - https://levelup.gitconnected.com/dependency-injection-in-dart-flutter-apps-3332f1a61041
+  - https://dev.to/devtronic/dependency-injection-with-flutter-54pl
+  - https://davidserrano.io/flutter-state-management-made-easy-with-provider-2-provider-as-a-dependency-injection-framework-and-multiprovider
+  - https://geekyants.com/blog/understanding-dependency-injection-in-flutter-using-provider-143/
+  - https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
+  - https://pub.dev/packages/daggerito
+  - https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
+  - https://medium.com/flutter-community/flutter-fast-dependency-injection-5748d956bb5c
+
+<br>
+<br>
+<br>
+
+**flutter communication with android service**:
+- https://www.google.com/search?q=flutter+communication+with+android+service&oq=flutter+communication+with+android+service&aqs=chrome..69i57.14473j0j7&sourceid=chrome&ie=UTF-8
+- https://medium.com/codechai/flutter-and-services-638ebfbbe47f
+- https://docs.flutter.dev/development/packages-and-plugins/background-processes
+- https://docs.flutter.dev/development/platform-integration/platform-channels
+- https://docs.flutter.dev/get-started/flutter-for/android-devs
+- https://dev.to/blazebrain/using-services-in-flutter-572h
+- https://youtu.be/exHgLlF9XlQ
+- https://learn.microsoft.com/en-us/answers/questions/772581/communication-services-for-flutter-apps.html
+- https://betterprogramming.pub/how-does-flutter-communicate-with-platform-native-code-2bb002f64121
+- https://medium.com/flutter-community/creating-services-to-do-the-work-in-your-flutter-app-93d6c4aa7697
+- https://pusher.com/tutorials/how-to-add-realtime-communication-to-flutter-with-pusher-channels/
+-  
 
 
 

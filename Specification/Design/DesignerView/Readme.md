@@ -14,7 +14,7 @@ After [clarification](./Iteration1.md) of the task, the following changes were m
 <empty line>
 After 1st iteration of UI developing such changes were made:<br><br>
 - color palette: white, black and shades;<br>
-The development of the UI interface was divided into iterations.<br>
+The development of the UI was divided into iterations.<br>
 The results of each iteration have been added to the repository, accompanied by a link to the [Figma](https://www.figma.com/) document.<br><br>
 As a result, there is such list of iterations:<br>
 - [Iteration1.md](./Iteration1.md);<br>

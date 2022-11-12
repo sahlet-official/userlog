@@ -5,5 +5,6 @@ As a result of the first iteration, the following design option was proposed:<br
 As a result, Product Owner made a number of clarifications about the UI:<br>
 - the color scheme has been changed to black and white and its shades;<br>
 <empty line>
-Changes in UX scheme: <br>
+  
+Changes in UX scheme:
 - left drop-down menu was changed to bottom menu;<br>

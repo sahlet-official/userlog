@@ -8,7 +8,9 @@ To achieve the result, the following criteria were set for UX markup:<br>
 Based on UX requirements and Product Owner requirements, the following specifications were developed for the UI interface:<br>
 - style: minimalism;<br>
 <empty line>
+  
 The UX scheme was based on the scheme from [ProdOwnerView.md](./../ProdOwnerView#readme).<br>
+  
 After [clarification](./Iteration1.md) of the task, the following changes were made to the customer's UX scheme:<br>
 - the side drop-down menu was removed and replaced with a lower central menu;<br>
 <empty line>
@@ -16,8 +18,11 @@ After 1st iteration of UI developing such changes were made:<br><br>
 - color palette: white, black and shades;<br>
 The development of the UI was divided into iterations.<br>
 The results of each iteration have been added to the repository, accompanied by a link to the [Figma](https://www.figma.com/) document.<br><br>
-As a result, there is such list of iterations:<br>
-- [Iteration1.md](./Iteration1.md);<br>
-- [Iteration2.md](./Iteration2.md);<br>
-- [Iteration3.md](./Iteration3.md);<br>
-The last iteration was taken as the resulting [approved design](./../ApprovedDesign#readme).<br>
+
+  As a result, there is such list of iterations:
+- [Iteration1.md](./Iteration1.md);
+- [Iteration2.md](./Iteration2.md);
+- [Iteration3.md](./Iteration3.md);
+<empty line>
+  
+The last iteration was taken as the resulting [approved design](./../ApprovedDesign#readme).

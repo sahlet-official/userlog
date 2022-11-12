@@ -9,11 +9,13 @@ Main screen:<br>
 - extend log area;
 - remove contrasting elements;
 <empty line>
-About screen:<br>
-- change exit button to make it easier to acces;<br>
-- resize some other elements;<br>
+  
+About screen:
+- change exit button to make it easier to acces;
+- resize some other elements;
 <empty line>
-Clear Log dialog:<br>
+  
+Clear Log dialog:
 - change color and position of the buttons;
 <empty line>
 Changes in UX scheme: none.<br>

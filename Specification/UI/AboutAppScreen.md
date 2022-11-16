@@ -8,7 +8,7 @@ I want to have the **about app info close button** on the top of the screen.<br>
      - it should be **as** prominent part of the UI as the rest;
      - it should be not scrollable;
      - when the system Back button was pressed - it also closes **About app screen**;
-     - it should correspond to design requirements [TODO: link should be here]();
+     - it should correspond to [design requirements](./Design/ApprovedDesign/Readme.md#about-screen);
 <br>
 
 ### About app info text area
@@ -16,7 +16,7 @@ As a PO, I want to make the user able to read information about app.<br>
    - Acceptance criteria:
      - it should fill all the free space on the screen without crowding out the rest of the UI elements;
      - it should be scrollable if the content does not fit in the area;
-     - it should correspond to design requirements [TODO: link should be here]();
+     - it should correspond to [design requirements](./Design/ApprovedDesign/Readme.md#about-screen);
 <br>
 
 ### About app info content
@@ -33,5 +33,5 @@ I want to have a title on the top of the screen.<br>
      - it should be **more** prominent part of the UI than the rest;
      - it should be taken from [AboutAppScreenContent.md](./../AboutAppScreenContent.md);
      - it should be scrollable with the rest of **[About app info content](./AboutAppScreen.md#about-app-info-content)** (so it can also be placed in **[About app info text area](./AboutAppScreen.md#about-app-info-text-area)**);
-     - it should correspond to design requirements [TODO: link should be here]();
+     - it should correspond to [design requirements](./Design/ApprovedDesign/Readme.md#about-screen);
 <br>

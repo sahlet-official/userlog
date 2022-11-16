@@ -14,5 +14,5 @@ As a User, I want to have an option to clear the log through the confirmation wi
      - when Cancel was pressed - the window closes;
      - when Clear was pressed - the log is cleared and then the window closes;
      - when the system Back button was pressed - the window closes;
-     - it should correspond to design requirements [TODO: link should be here]();
+     - it should correspond to [design requirements](./Design/ApprovedDesign/Readme.md#clear-log-confirmation-window);
 <br>

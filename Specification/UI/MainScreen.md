@@ -31,7 +31,7 @@ where I can write text and only lines with this text will be in the log view.<br
    - Acceptance criteria:
      - when the **filter textinput** is empty - there should be transparent or gray text "Filter..." without quotes;
      - when the **filter textinput** is not empty - there should not be text "Filter...", only entered text;
-     - when the text inside the **filter textinput** was changed - the [**on filter text changed scenario** - TODO: make a link]() should be launched;
+     - when the text inside the **filter textinput** was changed - the [**on filter text changed scenario**](./../SoftwareArchitecture#readme) should be launched;
      - it should correspond to [design requirements](./Design/ApprovedDesign/Readme.md#main-screen);
 <br>
 
@@ -47,7 +47,7 @@ I want to have the **records number row** between the **[filter textinput](./Mai
 <br>
 
 ### Clear log button
-As a user, I want to launch the [**clear log scenario** - TODO: make a link]() by button.<br>
+As a user, I want to launch the [**clear log scenario**](./../SoftwareArchitecture#readme) by button.<br>
 I want to have a button on top of the right corner of the **[log textarea](./MainScreen.md#log-textarea)**.<br>
    - Acceptance criteria:
      - it should be a **less** prominent part of the UI than the rest
@@ -56,7 +56,7 @@ I want to have a button on top of the right corner of the **[log textarea](./Mai
 <br>
 
 ### Info button
-As a PO, I want to make the user able to launch the [**show About scenario** - TODO: make a link]() by button.<br>
+As a PO, I want to make the user able to launch the [**show About scenario**](./../SoftwareArchitecture#readme) by button.<br>
 I want to have the **info button** right under the **[log textarea](./MainScreen.md#log-textarea)**.<br>
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;
@@ -65,7 +65,7 @@ I want to have the **info button** right under the **[log textarea](./MainScreen
 <br>
 
 ### Quit button
-As a User, I want to be able to launch the [**quit app scenario** - TODO: make a link]() by button.<br>
+As a User, I want to be able to launch the [**quit app scenario**](./../SoftwareArchitecture#readme) by button.<br>
 I want to have the **quit button** right under the **[log textarea](./MainScreen.md#log-textarea)**.<br>
    - Acceptance criteria:
      - it should be **as** prominent part of the UI as the rest;

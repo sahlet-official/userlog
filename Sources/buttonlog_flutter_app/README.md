@@ -1,4 +1,4 @@
-# flutter_buttonlog
+# buttonlog_flutter_app
 
 UI component of the Buttonlog project.<br/>
 

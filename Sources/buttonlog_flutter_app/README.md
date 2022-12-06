@@ -1,19 +1,26 @@
 # buttonlog_flutter_app
 
-UI component of the Buttonlog project.<br/>
+How to setup the project.<br/>
 
 ## Getting Started
 
+To get started with our project, you must have Flutter, Android Studio installed.<br/>
+You can also use VS Code as an editor. You can get installation instructions for all<br/>
+of the above at this [link](https://docs.flutter.dev/get-started/install).
+
 To run the project, follow these steps:<br/>
 
-1. Create a new flutter project in your IDE (VS Code or Android Studio).<br/>
-2. Copy the lib folder from our repository, and replace the lib folder<br/>
-in your project with the copied one.
-3. Copy the test folder from our repository, and replace the test folder<br/>
-in your project with the copied one.
-4. Copy the assets folder from our repository and paste it into your project<br/>
-5. In your pubspec.yalm file, look for the line: "# To add assets to your application<br/>
-, add an assets section, like this:"
-6. Under this line, uncomment the line: "assets:". Below it, respecting the indentation,<br/>
-insert the line: "-assets/images/"
-7. Save changes and run the project.  
+1. Clone the repository on your device.
+2. Open the project in your IDE. Project opening algorithm for Android Studio:<br/>
+File->Open...-> select the folder with the project;<br/>
+for VS Code: File->Open Folder-> select the folder with the project.<br/>
+3. After opening the project, in the terminal, run the command:
+```
+flutter pub get
+```
+to install dependencies.
+4. Launch the android device emulator. Set up android emulator in [Android Studio](https://www.youtube.com/watch?v=uMrKpOtDP4k)<br/>.
+To use the emulator in VS Code, you can use the Android Studio creation emulator<br/>
+by simply specifying this device before starting the debug, or use the suggestion options<br/>
+from this [article](https://www.geeksforgeeks.org/how-to-set-up-an-emulator-for-vscode/).
+5. Start debugging and enjoy!

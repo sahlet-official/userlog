@@ -1,8 +1,9 @@
+import 'clear_answer.dart';
+import 'package:buttonlog_flutter_app/about.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:buttonlog_flutter_app/about.dart';
 
-import 'clear_answer.dart';
+
 
 class MainActivity extends StatefulWidget {
   @override
@@ -130,7 +131,7 @@ class _MainActivityState extends State<MainActivity> {
                           padding: EdgeInsets.only(top: 12),
                           child: Image(
                             image: AssetImage('assets/images/slider.png'),
-                            ),
+                          ),
                         ),
                       ]),
                 ),

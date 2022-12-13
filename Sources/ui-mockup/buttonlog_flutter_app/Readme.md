@@ -18,8 +18,6 @@ for VS Code: File->Open Folder-> select the folder with the project.<br/>
 ```
 flutter pub get
 ```
-4. Launch the android device emulator. Set up android emulator in [Android Studio](https://www.youtube.com/watch?v=uMrKpOtDP4k).<br/>
-To use the emulator in VS Code, you can use the Android Studio creation emulator<br/>
-by simply specifying this device before starting the debug, or use the suggestion options<br/>
-from this [article](https://www.geeksforgeeks.org/how-to-set-up-an-emulator-for-vscode/).<br/>
+4. Launch the android device emulator. Set up android emulator in [Android Studio](https://developer.android.com/studio/run/managing-avds).<br/>
+To use the emulator in VS Code, you can use the Android Studio creation emulator by simply specifying this device before starting the<br/> debug, or use the suggestion options from this [article](https://www.geeksforgeeks.org/how-to-set-up-an-emulator-for-vscode/).<br/>
 5. Start debugging and enjoy!<br/>

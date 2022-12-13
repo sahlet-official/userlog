@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-
 import 'main_activity.dart';
 
 void main() {
@@ -14,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Buttonlog',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),

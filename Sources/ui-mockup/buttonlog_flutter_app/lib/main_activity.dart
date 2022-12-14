@@ -1,9 +1,9 @@
+import 'package:flutter_svg/svg.dart';
+
 import 'clear_answer.dart';
 import 'package:buttonlog_flutter_app/about.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
-
 
 class MainActivity extends StatefulWidget {
   @override
@@ -129,31 +129,29 @@ class _MainActivityState extends State<MainActivity> {
                         Container(
                           alignment: Alignment.bottomCenter,
                           padding: EdgeInsets.only(top: 12),
-                          child: Image(
-                            image: AssetImage('assets/images/slider.png'),
-                          ),
+                          child: SvgPicture.asset('assets/images/slider_vector.svg'),
                         ),
                       ]),
                 ),
               ),
-
-                Container(
-                  alignment: Alignment.topRight,
-                  child: Container(
-                    child:IconButton(
-                      icon: Image.asset(
-                        'assets/images/clearButton.png',
-                        fit: BoxFit.cover,
-                      ),
-                      iconSize: 33,
-                      onPressed: () {
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (context) => ClearAnswer()));
-                      },
+              Container(
+                alignment: Alignment.topRight,
+                child: Container(
+                  child: IconButton(
+                    icon: SvgPicture.asset(
+                      'assets/images/clean_button.svg',
+                      fit: BoxFit.cover,
                     ),
+                    iconSize: 33,
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => ClearAnswer()));
+                    },
                   ),
                 ),
-
+              ),
             ]),
             SizedBox(
               height: MediaQuery.of(context).size.height / 20,
@@ -165,8 +163,8 @@ class _MainActivityState extends State<MainActivity> {
                 mainAxisSize: MainAxisSize.max,
                 children: <Widget>[
                   IconButton(
-                    icon: Image.asset(
-                      'assets/images/infoButton.png',
+                    icon: SvgPicture.asset(
+                      'assets/images/info_button.svg',
                       fit: BoxFit.cover,
                     ),
                     iconSize: 33,
@@ -176,8 +174,8 @@ class _MainActivityState extends State<MainActivity> {
                     },
                   ),
                   IconButton(
-                    icon: Image.asset(
-                      'assets/images/shutdownButton.png',
+                    icon: SvgPicture.asset(
+                      'assets/images/shutdown_button.svg',
                       fit: BoxFit.cover,
                     ),
                     iconSize: 33,

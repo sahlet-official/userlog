@@ -29,7 +29,7 @@ class ClearAnswer extends StatelessWidget {
                 Container(
                   child: TextButton(
                     onPressed: () {
-                       Navigator.pop(context);
+                      Navigator.pop(context);
                     },
                     child: const Text(
                       'Cansel',

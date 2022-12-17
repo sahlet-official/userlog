@@ -1,16 +1,20 @@
 import 'package:flutter/material.dart';
 
+import 'texts.dart';
+
 class ClearAnswer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    var texts = Texts();
+    
     return Scaffold(
       body: Column(
         children: <Widget>[
           Center(
             child: Container(
               padding: EdgeInsets.fromLTRB(60, 270, 0, 0),
-              child: Text(
-                "Are you sure you want to clear log?",
+              child: const Text(
+                Texts.clearQuestionText,
                 style: TextStyle(
                   color: Colors.black,
                   fontSize: 36,
@@ -32,7 +36,7 @@ class ClearAnswer extends StatelessWidget {
                       Navigator.pop(context);
                     },
                     child: const Text(
-                      'Cansel',
+                      Texts.canselButtonText,
                       style: TextStyle(
                         color: Colors.black,
                         fontSize: 32,
@@ -51,7 +55,7 @@ class ClearAnswer extends StatelessWidget {
                       Navigator.pop(context);
                     },
                     child: const Text(
-                      'Clear',
+                      Texts.clearButtonText,
                       style: TextStyle(
                         color: Colors.red,
                         fontSize: 32,

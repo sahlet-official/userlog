@@ -1,9 +1,12 @@
-import 'package:flutter_svg/svg.dart';
-
-import 'clear_answer.dart';
-import 'package:buttonlog_flutter_app/about.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_svg/svg.dart';
+
+import 'about_screen.dart';
+import 'assets.dart';
+import 'clear_log_confirmation.dart';
+import 'texts.dart';
+  
 
 class MainActivity extends StatefulWidget {
   @override
@@ -12,6 +15,7 @@ class MainActivity extends StatefulWidget {
 
 class _MainActivityState extends State<MainActivity> {
   late TextEditingController _controller;
+
 
   @override
   void initState() {
@@ -26,6 +30,28 @@ class _MainActivityState extends State<MainActivity> {
   }
 
   Widget build(BuildContext context) {
+      //screen width
+      double screenWidth = MediaQuery.of(context).size.width;
+      //screen height
+      double screenHeight = MediaQuery.of(context).size.height;
+      
+      //filter paddings
+      double filterPaddingScreenWidthCoefficient = 1 / 20;
+      double filterInputPadding = filterPaddingScreenWidthCoefficient * screenWidth;
+
+      //records paddings
+      double recordsPaddingScreenWidthCoefficient = 1 / 15;
+      double recordsWidthInputPadding = recordsPaddingScreenWidthCoefficient * screenWidth;
+      double recordsPaddingScreenHeightCoefficient = 1 / 30;
+      double recordsHeightInputPadding = recordsPaddingScreenHeightCoefficient * screenHeight;
+
+      //textarea paddings
+       double textAreaPaddingScreenWidthCoefficient = 1.1;
+      double textAreaWidthInputPadding = screenWidth / textAreaPaddingScreenWidthCoefficient;
+      double textAreaPaddingScreenHeightCoefficient = 1.8;
+      double textAreaHeightInputPadding = screenHeight / textAreaPaddingScreenHeightCoefficient;
+
+    
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
@@ -33,9 +59,9 @@ class _MainActivityState extends State<MainActivity> {
           children: <Widget>[
             Container(
               padding: EdgeInsets.fromLTRB(
-                  MediaQuery.of(context).size.width / 20,
-                  MediaQuery.of(context).size.height / 20,
-                  MediaQuery.of(context).size.width / 20,
+                  filterInputPadding,
+                  filterInputPadding,
+                  filterInputPadding,
                   0),
               child: TextField(
                 controller: _controller,
@@ -52,7 +78,7 @@ class _MainActivityState extends State<MainActivity> {
                     ),
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                   ),
-                  labelText: "Filter...",
+                  labelText: Texts.filterText,
                   labelStyle: TextStyle(
                     color: Colors.grey[500],
                     fontSize: 24,
@@ -60,36 +86,16 @@ class _MainActivityState extends State<MainActivity> {
                     fontFamily: "Suisse Int'l",
                   ),
                 ),
-                onSubmitted: (String value) async {
-                  await showDialog<void>(
-                    context: context,
-                    builder: (BuildContext context) {
-                      return AlertDialog(
-                        title: const Text('Thanks!'),
-                        content: Text(
-                            'You typed "$value", which has length ${value.characters.length}.'),
-                        actions: <Widget>[
-                          TextButton(
-                            onPressed: () {
-                              Navigator.pop(context);
-                            },
-                            child: const Text('OK'),
-                          ),
-                        ],
-                      );
-                    },
-                  );
-                },
               ),
             ),
             Container(
               padding: EdgeInsets.fromLTRB(
-                  MediaQuery.of(context).size.width / 15,
-                  MediaQuery.of(context).size.height / 30,
-                  MediaQuery.of(context).size.width / 30,
+                  recordsWidthInputPadding,
+                  recordsHeightInputPadding,
+                  recordsWidthInputPadding,
                   0),
               child: Text(
-                "records: 0",
+                Texts.recordsText,
                 style: TextStyle(
                   color: Colors.grey[500],
                   fontSize: 15,
@@ -102,8 +108,8 @@ class _MainActivityState extends State<MainActivity> {
                 child: Container(
                   margin: EdgeInsets.only(top: 20),
                   padding: EdgeInsets.all(12),
-                  width: MediaQuery.of(context).size.width / 1.1,
-                  height: MediaQuery.of(context).size.height / 1.8,
+                  width: textAreaWidthInputPadding,
+                  height: textAreaHeightInputPadding,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                     border: Border.all(
@@ -117,7 +123,7 @@ class _MainActivityState extends State<MainActivity> {
                         Container(
                           alignment: Alignment.topRight,
                           child: Text(
-                            "log...",
+                            Texts.logText,
                             style: TextStyle(
                               color: Colors.grey[500],
                               fontSize: 24,
@@ -129,7 +135,7 @@ class _MainActivityState extends State<MainActivity> {
                         Container(
                           alignment: Alignment.bottomCenter,
                           padding: EdgeInsets.only(top: 12),
-                          child: SvgPicture.asset('assets/images/slider_vector.svg'),
+                          child: SvgPicture.asset(Assets.sliderImage),
                         ),
                       ]),
                 ),
@@ -139,7 +145,7 @@ class _MainActivityState extends State<MainActivity> {
                 child: Container(
                   child: IconButton(
                     icon: SvgPicture.asset(
-                      'assets/images/clean_button.svg',
+                      Assets.cleanButtonImage,
                       fit: BoxFit.cover,
                     ),
                     iconSize: 33,
@@ -154,8 +160,8 @@ class _MainActivityState extends State<MainActivity> {
               ),
             ]),
             SizedBox(
-              height: MediaQuery.of(context).size.height / 20,
-              width: MediaQuery.of(context).size.width,
+              height: filterInputPadding,
+              width: screenWidth,
             ),
             Container(
               child: Row(
@@ -164,7 +170,7 @@ class _MainActivityState extends State<MainActivity> {
                 children: <Widget>[
                   IconButton(
                     icon: SvgPicture.asset(
-                      'assets/images/info_button.svg',
+                      Assets.infoButtonImage,
                       fit: BoxFit.cover,
                     ),
                     iconSize: 33,
@@ -175,7 +181,7 @@ class _MainActivityState extends State<MainActivity> {
                   ),
                   IconButton(
                     icon: SvgPicture.asset(
-                      'assets/images/shutdown_button.svg',
+                      Assets.shutdownButtonImage,
                       fit: BoxFit.cover,
                     ),
                     iconSize: 33,

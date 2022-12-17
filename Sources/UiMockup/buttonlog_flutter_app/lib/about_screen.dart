@@ -1,21 +1,45 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import 'assets.dart';
+import 'texts.dart';
+
 class About extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
+    //screen width
+    double screenWidth = MediaQuery.of(context).size.width;
+    //screen height
+    double screenHeight = MediaQuery.of(context).size.height;
+
+    //sizeBox paddings
+    double sizeBoxPaddingScreenHeightCoefficient = 1 / 20;
+    double sizeBoxHeightInputPadding = screenHeight * sizeBoxPaddingScreenHeightCoefficient;
+
+    //exitButton paddings
+    double exitButtonPaddingScreenWidthCoefficient = 1 / 2;
+    double sizeBoxWidthInputPadding = screenWidth * exitButtonPaddingScreenWidthCoefficient;
+
+    //aboutUsText paddings
+    double aboutUsTextPaddingScreenCoefficient = 1 / 30;
+    double aboutUsTextWidthInputPadding = screenWidth * aboutUsTextPaddingScreenCoefficient;
+    double aboutUsTextHeightInputPadding = screenHeight * aboutUsTextPaddingScreenCoefficient;
+  
+
+
     return Scaffold(
       backgroundColor: Colors.black,
       body: ListView(
         children: <Widget>[
           SizedBox(
-            height: MediaQuery.of(context).size.height / 20,
-            width: MediaQuery.of(context).size.width,
+            height: sizeBoxHeightInputPadding,
+            width: screenWidth,
           ),
           Container(
             margin: EdgeInsets.only(left: 0),
             padding:
-                EdgeInsets.only(right: MediaQuery.of(context).size.width / 2),
+                EdgeInsets.only(right: sizeBoxWidthInputPadding),
             child: Row(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
@@ -24,7 +48,7 @@ class About extends StatelessWidget {
                     icon: Align(
                       alignment: Alignment.bottomLeft,
                       child: SvgPicture.asset(
-                        'assets/images/exit_button.svg',
+                        Assets.exitButtonImage,
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -35,8 +59,8 @@ class About extends StatelessWidget {
                   ),
                 ),
                 Container(
-                  child: Text(
-                    "About",
+                  child: const Text(
+                    Texts.aboutText,
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 42,
@@ -49,18 +73,18 @@ class About extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: MediaQuery.of(context).size.height / 20,
-            width: MediaQuery.of(context).size.width,
+            height: sizeBoxHeightInputPadding,
+            width: screenWidth,
           ),
           Center(
             child: Container(
               padding: EdgeInsets.fromLTRB(
-                  MediaQuery.of(context).size.width / 30,
-                  MediaQuery.of(context).size.height / 30,
-                  MediaQuery.of(context).size.width / 30,
+                  aboutUsTextWidthInputPadding,
+                  aboutUsTextHeightInputPadding,
+                  aboutUsTextWidthInputPadding,
                   0),
-              child: Text(
-                "Very interesting and important info about app, it's authors etc.",
+              child: const Text(
+                Texts.aboutUsText,
                 style: TextStyle(
                   color: Colors.white60,
                   fontSize: 20,

@@ -1,4 +1,4 @@
-# Software Architecture isn't ready (Draft 1)
+# Software Architecture isn't ready (Draft 2)
 
 some info:
 IoC container Android:
@@ -6,11 +6,23 @@ https://developer.android.com/training/dependency-injection
 https://developer.android.com/training/dependency-injection/hilt-android
 
 **Best practices in Flutter**:
-- https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
-- https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
-- https://somniosoftware.com/post/top-10-flutter-best-practices
-- https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
+Needed practices:
+- Foldes structure
+![image](https://user-images.githubusercontent.com/45210795/214284000-8eb1750b-e00f-4c49-b252-8fa102681989.png)
+- BLoC
+  - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
+
+Referecies:
+- Common advises:
+  - https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
+  - https://somniosoftware.com/post/top-10-flutter-best-practices
+- BLoC:
+  - https://vc.ru/dev/293853-arhitekturnyy-pattern-bloc-v-proekte-ispolzuem-legkiy-cubit
+  - https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
+- MVP MVC MVVM:
+  - https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
 - https://www.mindinventory.com/blog/flutter-development-best-practices/
+- https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
 - https://verygood.ventures/blog/very-good-flutter-architecture
 - https://docs.flutter.dev/resources/architectural-overview
 - https://viblo.asia/p/what-are-the-key-strategies-and-best-practices-that-simplify-flutter-app-development-3kY4gn2OVAe

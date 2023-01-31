@@ -1,20 +1,16 @@
-How to setup the project.<br/>
-
-## Getting Started
+## How to setup the project.<br/>
 
 To get started with our project, you must have Kotlin on Android Studio installed.
 [Download Android Studio](https://developer.android.com/studio?hl=en)
 
 To run the project, follow these steps:<br/>
 
-1. Clone the repository on your device.
-2. Open the project in your IDE. Project opening algorithm for Android Studio:<br/>
-File->Open...-> select the folder with the project;<br/>
-for VS Code: File->Open Folder-> select the folder with the project.<br/>
-3. After opening the project, in the terminal, run the command to install dependencies:<br/>
-```
-flutter pub get
-```
-4. Launch the android device emulator. Set up android [emulator in Android Studio](https://developer.android.com/studio/run/managing-avds).<br/>
-Set up the [emulator in VS Code](https://www.geeksforgeeks.org/how-to-set-up-an-emulator-for-vscode/).<br/>
-5. Start debugging and enjoy!<br/>
+1. Clone the repository on your device
+2. Open IDE
+3. Create empty project
+4. Open the project in your device or IDE. 
+5. Open folder in your project app->scr->main->java->com-->example->myapplication
+6. Delete MainActivity.kt
+7. Move cloned files from repository to folder
+8. Launch the android device emulator. Set up android [emulator in Android Studio](https://developer.android.com/studio/run/managing-avds).<br/>
+9. Start debugging and enjoy!<br/>

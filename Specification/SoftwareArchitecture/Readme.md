@@ -16,6 +16,7 @@ Referecies:
   - https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
 - MVP MVC MVVM:
 ---------
+
 - https://www.mindinventory.com/blog/flutter-development-best-practices/
 - https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
 - https://verygood.ventures/blog/very-good-flutter-architecture

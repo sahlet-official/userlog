@@ -1,10 +1,5 @@
 # Software Architecture isn't ready (Draft 2)
 
-some info:
-IoC container Android:
-https://developer.android.com/training/dependency-injection
-https://developer.android.com/training/dependency-injection/hilt-android
-
 **Best practices in Flutter**:
 Needed practices:
 - Foldes structure
@@ -20,7 +15,7 @@ Referecies:
   - https://vc.ru/dev/293853-arhitekturnyy-pattern-bloc-v-proekte-ispolzuem-legkiy-cubit
   - https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
 - MVP MVC MVVM:
-  - https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
+---------
 - https://www.mindinventory.com/blog/flutter-development-best-practices/
 - https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
 - https://verygood.ventures/blog/very-good-flutter-architecture

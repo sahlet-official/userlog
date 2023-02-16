@@ -5,18 +5,10 @@ Needed practices:
 - Foldes structure
 ![image](https://user-images.githubusercontent.com/45210795/214284000-8eb1750b-e00f-4c49-b252-8fa102681989.png)
 - BLoC
+  - how to start https://bloclibrary.dev/#/gettingstarted
   - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
 
 Referecies:
-- Common advises:
-  - https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
-  - https://somniosoftware.com/post/top-10-flutter-best-practices
-- BLoC:
-  - https://vc.ru/dev/293853-arhitekturnyy-pattern-bloc-v-proekte-ispolzuem-legkiy-cubit
-  - https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
-- MVP MVC MVVM:
----------
-
 - https://www.mindinventory.com/blog/flutter-development-best-practices/
 - https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
 - https://verygood.ventures/blog/very-good-flutter-architecture

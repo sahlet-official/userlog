@@ -9,7 +9,6 @@ Needed practices:
   - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
 
 Referecies:
-- https://www.mindinventory.com/blog/flutter-development-best-practices/
 - https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
 - https://verygood.ventures/blog/very-good-flutter-architecture
 - https://docs.flutter.dev/resources/architectural-overview

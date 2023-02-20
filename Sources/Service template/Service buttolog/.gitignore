@@ -1,15 +1,33 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Файли Gradle
+.gradle /
+будувати /
+
+# Локальний файл конфігурації (шлях до SDK тощо)
 local.properties
+
+# Файли журналу/ОС
+* .log
+
+# Файли та папки, створені Android Studio
+захоплення /
+.externalNativeBuild /
+.cxx /
+* .apk
+output.json
+
+# IntelliJ
+* .iml
+.idea /
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Файли сховища ключів
+* .jks
+* .keystore
+
+# Служби Google (наприклад, API або Firebase)
+google-services.json
+
+# Профілювання Android
+* .hprof

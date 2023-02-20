@@ -1,33 +1,33 @@
-# Файли Gradle
-.gradle /
-будувати /
+# Gradle files
+.gradle/
+build/
 
-# Локальний файл конфігурації (шлях до SDK тощо)
+# Local configuration file (sdk path, etc)
 local.properties
 
-# Файли журналу/ОС
-* .log
+# Log/OS Files
+*.log
 
-# Файли та папки, створені Android Studio
-захоплення /
-.externalNativeBuild /
-.cxx /
-* .apk
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
 output.json
 
 # IntelliJ
-* .iml
-.idea /
+*.iml
+.idea/
 misc.xml
 deploymentTargetDropDown.xml
 render.experimental.xml
 
-# Файли сховища ключів
-* .jks
-* .keystore
+# Keystore files
+*.jks
+*.keystore
 
-# Служби Google (наприклад, API або Firebase)
+# Google Services (e.g. APIs or Firebase)
 google-services.json
 
-# Профілювання Android
-* .hprof
+# Android Profiling
+*.hprof

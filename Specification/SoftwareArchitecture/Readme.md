@@ -46,6 +46,9 @@ Referecies:
   - https://github.com/google/inject.dart
   - https://pub.dev/packages/flutter_injections
   - other (read more to decide):
+  - https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/
+  - https://developers.mews.com/dependency-injection-in-flutter/
+
   - https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
   - https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408
   - https://www.section.io/engineering-education/dependency-injection-in-flutter/

@@ -5,6 +5,7 @@ Needed practices:
 - Foldes structure
 ![image](https://user-images.githubusercontent.com/45210795/214284000-8eb1750b-e00f-4c49-b252-8fa102681989.png)
 - BLoC
+  - about https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
   - how to start https://bloclibrary.dev/#/gettingstarted
   - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
 
@@ -39,12 +40,9 @@ Referecies:
 <br>
 
 **IoC container Flutter**:
-- lightweight:
-  - https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
-- heavyweight but fundamrntsl and scalable:
-  - https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
+  - https://pub.dev/packages/injectable
+  - https://pub.dev/packages/injector
   - other (read more to decide):
-  - injector похоже больше на service locator чем на DI https://pub.dev/packages/injector
   - https://github.com/google/inject.dart
   - https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
   - https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408

@@ -14,6 +14,7 @@ Needed practices:
   - https://pub.dev/packages/get_it
   - https://pub.dev/packages/injectable
   - https://pub.dev/packages/kiwi
+  - https://pub.dev/packages/provider
   examples:
     - https://www.youtube.com/watch?v=KNcP8z0hWqs&ab_channel=ResoCoder
     - https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/

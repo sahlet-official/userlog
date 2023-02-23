@@ -8,6 +8,15 @@ Needed practices:
   - about https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
   - how to start https://bloclibrary.dev/#/gettingstarted
   - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
+- DI in Flutter:
+  - https://fluttergems.dev/state-management/
+  - https://pub.dev/packages/get
+  - https://pub.dev/packages/get_it
+  - https://pub.dev/packages/injectable
+  - https://pub.dev/packages/kiwi
+  examples:
+    - https://www.youtube.com/watch?v=KNcP8z0hWqs&ab_channel=ResoCoder
+    - https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/
 
 Referecies:
 - https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
@@ -36,30 +45,6 @@ Referecies:
 - https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2
 
 <br>
-<br>
-<br>
-
-**IoC container Flutter**:
-  - https://pub.dev/packages/get_it
-  - https://pub.dev/packages/injectable
-  - https://pub.dev/packages/injector
-  - https://github.com/google/inject.dart
-  - https://pub.dev/packages/flutter_injections
-  - other (read more to decide):
-  - https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/
-  - https://developers.mews.com/dependency-injection-in-flutter/
-
-  - https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
-  - https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408
-  - https://www.section.io/engineering-education/dependency-injection-in-flutter/
-  - https://levelup.gitconnected.com/dependency-injection-in-dart-flutter-apps-3332f1a61041
-  - https://dev.to/devtronic/dependency-injection-with-flutter-54pl
-  - https://davidserrano.io/flutter-state-management-made-easy-with-provider-2-provider-as-a-dependency-injection-framework-and-multiprovider
-  - https://geekyants.com/blog/understanding-dependency-injection-in-flutter-using-provider-143/
-  - https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
-  - https://pub.dev/packages/daggerito
-  - https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
-  - https://medium.com/flutter-community/flutter-fast-dependency-injection-5748d956bb5c
 
 <br>
 <br>
@@ -83,11 +68,6 @@ Referecies:
 
 SOLID:
 https://youtube.com/playlist?list=PLmqFxxywkatQNWLG1IZYUhKoQrnuZHqaK
-
-MVC, MVP, MVVM:
-https://habr.com/ru/company/mobileup/blog/313538/?_ga=2.84742493.539951051.1666797625-951758729.1664898225
-https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
-![Image](https://user-images.githubusercontent.com/45210795/198054831-6a0b492a-f74c-4fc6-88c6-e3488402e63f.png)
 
 
 draw.io link:

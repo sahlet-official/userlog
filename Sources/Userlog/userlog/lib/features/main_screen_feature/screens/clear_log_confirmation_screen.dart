@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:user_log/core/fonts.dart';
-import 'package:user_log/core/texts.dart';
+import 'package:userlog/common/styles/fonts.dart';
+import 'package:userlog/features/main_screen_feature/assets/main_texts.dart';
 
 class ClearAnswer extends StatelessWidget {
   const ClearAnswer({super.key});
@@ -21,7 +21,8 @@ class ClearAnswer extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: const TextButtonStyle(color: Colors.black, text: Texts.canselButtonText),
+                  child: const TextButtonStyle(
+                      color: Colors.black, text: MainTexts.canselButtonText),
                 ),
                 const SizedBox(
                   width: 20,
@@ -30,7 +31,8 @@ class ClearAnswer extends StatelessWidget {
                   onPressed: () {
                     Navigator.pop(context);
                   },
-                  child: const TextButtonStyle(color: Colors.red, text: Texts.clearButtonText),
+                  child: const TextButtonStyle(
+                      color: Colors.red, text: MainTexts.clearButtonText),
                 ),
               ],
             ),
@@ -50,7 +52,7 @@ class ClearTitle extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.fromLTRB(60, 270, 0, 0),
         child: const Text(
-          Texts.clearQuestionText,
+          MainTexts.clearQuestionText,
           style: TextStyle(
             color: Colors.black,
             fontSize: 36,

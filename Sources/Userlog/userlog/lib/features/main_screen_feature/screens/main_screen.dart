@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:user_log/core/assets.dart';
-import 'package:user_log/core/fonts.dart';
-import 'package:user_log/core/texts.dart';
+import 'package:userlog/common/styles/fonts.dart';
+import 'package:userlog/features/main_screen_feature/assets/main_images.dart';
+import 'package:userlog/features/main_screen_feature/assets/main_texts.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -14,7 +14,6 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   late TextEditingController _controller;
-
 
   @override
   void initState() {
@@ -30,39 +29,40 @@ class _MainScreenState extends State<MainScreen> {
 
   @override
   Widget build(BuildContext context) {
-      //screen width
-      double screenWidth = MediaQuery.of(context).size.width;
-      //screen height
-      double screenHeight = MediaQuery.of(context).size.height;
-      
-      //filter paddings
-      double filterPaddingScreenWidthCoefficient = 1 / 20;
-      double filterInputPadding = filterPaddingScreenWidthCoefficient * screenWidth;
+    //screen width
+    double screenWidth = MediaQuery.of(context).size.width;
+    //screen height
+    double screenHeight = MediaQuery.of(context).size.height;
 
-      //records paddings
-      double recordsPaddingScreenWidthCoefficient = 1 / 15;
-      double recordsWidthInputPadding = recordsPaddingScreenWidthCoefficient * screenWidth;
-      double recordsPaddingScreenHeightCoefficient = 1 / 30;
-      double recordsHeightInputPadding = recordsPaddingScreenHeightCoefficient * screenHeight;
+    //filter paddings
+    double filterPaddingScreenWidthCoefficient = 1 / 20;
+    double filterInputPadding =
+        filterPaddingScreenWidthCoefficient * screenWidth;
 
-      //textarea paddings
-       double textAreaPaddingScreenWidthCoefficient = 1.1;
-      double textAreaWidthInputPadding = screenWidth / textAreaPaddingScreenWidthCoefficient;
-      double textAreaPaddingScreenHeightCoefficient = 1.8;
-      double textAreaHeightInputPadding = screenHeight / textAreaPaddingScreenHeightCoefficient;
+    //records paddings
+    double recordsPaddingScreenWidthCoefficient = 1 / 15;
+    double recordsWidthInputPadding =
+        recordsPaddingScreenWidthCoefficient * screenWidth;
+    double recordsPaddingScreenHeightCoefficient = 1 / 30;
+    double recordsHeightInputPadding =
+        recordsPaddingScreenHeightCoefficient * screenHeight;
 
-    
+    //textarea paddings
+    double textAreaPaddingScreenWidthCoefficient = 1.1;
+    double textAreaWidthInputPadding =
+        screenWidth / textAreaPaddingScreenWidthCoefficient;
+    double textAreaPaddingScreenHeightCoefficient = 1.8;
+    double textAreaHeightInputPadding =
+        screenHeight / textAreaPaddingScreenHeightCoefficient;
+
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
         child: ListView(
           children: <Widget>[
             Container(
-              padding: EdgeInsets.fromLTRB(
-                  filterInputPadding,
-                  filterInputPadding,
-                  filterInputPadding,
-                  0),
+              padding: EdgeInsets.fromLTRB(filterInputPadding,
+                  filterInputPadding, filterInputPadding, 0),
               child: TextField(
                 controller: _controller,
                 decoration: InputDecoration(
@@ -78,7 +78,7 @@ class _MainScreenState extends State<MainScreen> {
                     ),
                     borderRadius: BorderRadius.all(Radius.circular(15)),
                   ),
-                  labelText: Texts.filterText,
+                  labelText: MainTexts.filterText,
                   labelStyle: TextStyle(
                     color: Colors.grey[500],
                     fontSize: 24,
@@ -89,13 +89,10 @@ class _MainScreenState extends State<MainScreen> {
               ),
             ),
             Container(
-              padding: EdgeInsets.fromLTRB(
-                  recordsWidthInputPadding,
-                  recordsHeightInputPadding,
-                  recordsWidthInputPadding,
-                  0),
+              padding: EdgeInsets.fromLTRB(recordsWidthInputPadding,
+                  recordsHeightInputPadding, recordsWidthInputPadding, 0),
               child: Text(
-                Texts.recordsText,
+                MainTexts.recordsText,
                 style: TextStyle(
                   color: Colors.grey[500],
                   fontSize: 15,
@@ -123,7 +120,7 @@ class _MainScreenState extends State<MainScreen> {
                         Container(
                           alignment: Alignment.topRight,
                           child: Text(
-                            Texts.logText,
+                            MainTexts.logText,
                             style: TextStyle(
                               color: Colors.grey[500],
                               fontSize: 24,
@@ -135,7 +132,7 @@ class _MainScreenState extends State<MainScreen> {
                         Container(
                           alignment: Alignment.bottomCenter,
                           padding: const EdgeInsets.only(top: 12),
-                          child: SvgPicture.asset(Assets.sliderImage),
+                          child: SvgPicture.asset(MainImages.sliderImage),
                         ),
                       ]),
                 ),
@@ -144,7 +141,7 @@ class _MainScreenState extends State<MainScreen> {
                 alignment: Alignment.topRight,
                 child: IconButton(
                   icon: SvgPicture.asset(
-                    Assets.cleanButtonImage,
+                    MainImages.cleanButtonImage,
                     fit: BoxFit.cover,
                   ),
                   iconSize: 33,
@@ -167,7 +164,7 @@ class _MainScreenState extends State<MainScreen> {
               children: <Widget>[
                 IconButton(
                   icon: SvgPicture.asset(
-                    Assets.infoButtonImage,
+                    MainImages.infoButtonImage,
                     fit: BoxFit.cover,
                   ),
                   iconSize: 33,
@@ -180,7 +177,7 @@ class _MainScreenState extends State<MainScreen> {
                 ),
                 IconButton(
                   icon: SvgPicture.asset(
-                    Assets.shutdownButtonImage,
+                    MainImages.shutdownButtonImage,
                     fit: BoxFit.cover,
                   ),
                   iconSize: 33,

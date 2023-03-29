@@ -1,16 +1,26 @@
-# Software Architecture isn't ready (Draft 1)
-
-some info:
-IoC container Android:
-https://developer.android.com/training/dependency-injection
-https://developer.android.com/training/dependency-injection/hilt-android
+# Software Architecture isn't ready (Draft 3)
 
 **Best practices in Flutter**:
-- https://fredgrott.medium.com/why-do-we-not-have-legacy-mvc-mvp-and-mvvm-in-flutter-app-architecture-417d8b6e5076
-- https://aglowiditsolutions.com/blog/flutter-best-practices/#:~:text=BLoC%20Architecture%20is%20the%20best,Web%2C%20watchOS%2C%20and%20more.
-- https://somniosoftware.com/post/top-10-flutter-best-practices
-- https://somniosoftware.com/post/fundamentals-of-the-the-bloc-pattern
-- https://www.mindinventory.com/blog/flutter-development-best-practices/
+Needed practices:
+- Foldes structure
+![image](https://user-images.githubusercontent.com/45210795/214284000-8eb1750b-e00f-4c49-b252-8fa102681989.png)
+- BLoC
+  - about https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
+  - how to start https://bloclibrary.dev/#/gettingstarted
+  - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
+- DI in Flutter:
+  - https://fluttergems.dev/state-management/
+  - https://pub.dev/packages/get
+  - https://pub.dev/packages/get_it
+  - https://pub.dev/packages/injectable
+  - https://pub.dev/packages/kiwi
+  - https://pub.dev/packages/provider
+  examples:
+    - https://www.youtube.com/watch?v=KNcP8z0hWqs&ab_channel=ResoCoder
+    - https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/
+
+Referecies:
+- https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/
 - https://verygood.ventures/blog/very-good-flutter-architecture
 - https://docs.flutter.dev/resources/architectural-overview
 - https://viblo.asia/p/what-are-the-key-strategies-and-best-practices-that-simplify-flutter-app-development-3kY4gn2OVAe
@@ -36,28 +46,6 @@ https://developer.android.com/training/dependency-injection/hilt-android
 - https://medium.flutterdevs.com/design-patterns-in-flutter-part-1-c32a3ddb00e2
 
 <br>
-<br>
-<br>
-
-**IoC container Flutter**:
-- lightweight:
-  - https://docs.flutter.dev/development/data-and-backend/state-mgmt/simple
-- heavyweight but fundamrntsl and scalable:
-  - https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
-  - other (read more to decide):
-  - injector похоже больше на service locator чем на DI https://pub.dev/packages/injector
-  - https://github.com/google/inject.dart
-  - https://medium.com/flutter-community/dependency-injection-in-flutter-f19fb66a0740
-  - https://medium.com/flutter-community/flutters-dependency-injection-c4f053e4408
-  - https://www.section.io/engineering-education/dependency-injection-in-flutter/
-  - https://levelup.gitconnected.com/dependency-injection-in-dart-flutter-apps-3332f1a61041
-  - https://dev.to/devtronic/dependency-injection-with-flutter-54pl
-  - https://davidserrano.io/flutter-state-management-made-easy-with-provider-2-provider-as-a-dependency-injection-framework-and-multiprovider
-  - https://geekyants.com/blog/understanding-dependency-injection-in-flutter-using-provider-143/
-  - https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
-  - https://pub.dev/packages/daggerito
-  - https://resocoder.com/2020/02/04/injectable-flutter-dart-equivalent-to-dagger-angular-dependency-injection/
-  - https://medium.com/flutter-community/flutter-fast-dependency-injection-5748d956bb5c
 
 <br>
 <br>
@@ -81,11 +69,6 @@ https://developer.android.com/training/dependency-injection/hilt-android
 
 SOLID:
 https://youtube.com/playlist?list=PLmqFxxywkatQNWLG1IZYUhKoQrnuZHqaK
-
-MVC, MVP, MVVM:
-https://habr.com/ru/company/mobileup/blog/313538/?_ga=2.84742493.539951051.1666797625-951758729.1664898225
-https://medium.com/@ankit.sinhal/mvc-mvp-and-mvvm-design-pattern-6e169567bbad
-![Image](https://user-images.githubusercontent.com/45210795/198054831-6a0b492a-f74c-4fc6-88c6-e3488402e63f.png)
 
 
 draw.io link:

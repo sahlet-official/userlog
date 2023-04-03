@@ -13,10 +13,10 @@ To run the project, follow these steps:<br/>
 2. Open the project in your IDE. Project opening algorithm for Android Studio:
 File->Open...-> select the folder with the project;
 for VS Code: File->Open Folder-> select the folder with the project.<br/>
-1. After opening the project, in the terminal, run the command to install dependencies:<br/>
+3. After opening the project, in the terminal, run the command to install dependencies:<br/>
 ```
 flutter pub get
 ```
-1. Launch the android device emulator. Set up android [emulator in Android Studio](https://developer.android.com/studio/run/managing-avds).
+4. Launch the android device emulator. Set up android [emulator in Android Studio](https://developer.android.com/studio/run/managing-avds).
 Set up the [emulator in VS Code](https://www.geeksforgeeks.org/how-to-set-up-an-emulator-for-vscode/).<br/>
-1. Start debugging and enjoy!<br/>
+5. Start debugging and enjoy!<br/>

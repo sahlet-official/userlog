@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
 import 'package:userlog/common/styles/fonts.dart';
-import 'package:userlog/features/about_screen_feature/assets/about_images.dart';
-import 'package:userlog/features/about_screen_feature/assets/about_screen_texts.dart';
+import 'package:userlog/features/about/assets/about_images.dart';
+import 'package:userlog/features/about/assets/about_texts.dart';
 
 class AboutScreen extends StatelessWidget {
   const AboutScreen({super.key});

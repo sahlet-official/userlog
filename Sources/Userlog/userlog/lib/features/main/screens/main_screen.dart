@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+
 import 'package:userlog/common/styles/fonts.dart';
-import 'package:userlog/features/main_screen_feature/assets/main_images.dart';
-import 'package:userlog/features/main_screen_feature/assets/main_texts.dart';
+import 'package:userlog/features/about/api/about_routes.dart';
+import 'package:userlog/features/main/api/main_routes.dart';
+import 'package:userlog/features/main/assets/main_images.dart';
+import 'package:userlog/features/main/assets/main_texts.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -148,7 +151,7 @@ class _MainScreenState extends State<MainScreen> {
                   onPressed: () {
                     Navigator.pushNamed(
                       context,
-                      '/Clear',
+                      MainRoutes.clear,
                     );
                   },
                 ),
@@ -171,7 +174,7 @@ class _MainScreenState extends State<MainScreen> {
                   onPressed: () {
                     Navigator.pushNamed(
                       context,
-                      '/About',
+                      AboutRoutes.about,
                     );
                   },
                 ),

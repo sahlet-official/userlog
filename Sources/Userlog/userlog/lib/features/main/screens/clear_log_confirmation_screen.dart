@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+
 import 'package:userlog/common/styles/fonts.dart';
-import 'package:userlog/features/main_screen_feature/assets/main_texts.dart';
+import 'package:userlog/features/main/assets/main_texts.dart';
 
 class ClearAnswer extends StatelessWidget {
   const ClearAnswer({super.key});

@@ -3,7 +3,7 @@
 **Best practices in Flutter**:
 Needed practices:
 - Foldes structure<br>
-TODO: complite folder strucure<br>
+TODO: complete folder strucure<br>
 lib/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;common/<br>
 &nbsp;&nbsp;&nbsp;&nbsp;services/<br>
@@ -22,7 +22,7 @@ lib/<br>
 <br>
 
 **flutter communication with android service**:<br>
-TODO: complite communication interface<br>
+TODO: complete communication interface<br>
 Event "New package is ready"<br>
 Function "Is there an undelivered package?"<br>
 Function "Get next package"<br>

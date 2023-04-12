@@ -3,21 +3,12 @@
 **Best practices in Flutter**:
 Needed practices:
 - Foldes structure
+TODO: update folder strucure
 ![image](https://user-images.githubusercontent.com/45210795/214284000-8eb1750b-e00f-4c49-b252-8fa102681989.png)
-- BLoC
-  - about https://www.mitrais.com/news-updates/getting-started-with-flutter-bloc-pattern/
-  - how to start https://bloclibrary.dev/#/gettingstarted
-  - examples with well-defined architecture with BLoC https://bloclibrary.dev/#/flutterlogintutorial
+- [BLoC](bloclibrary.dev)
 - DI in Flutter:
-  - https://fluttergems.dev/state-management/
-  - https://pub.dev/packages/get
-  - https://pub.dev/packages/get_it
-  - https://pub.dev/packages/injectable
-  - https://pub.dev/packages/kiwi
-  - https://pub.dev/packages/provider
-  examples:
-    - https://www.youtube.com/watch?v=KNcP8z0hWqs&ab_channel=ResoCoder
-    - https://blog.logrocket.com/dependency-injection-flutter-using-getit-injectable/
+  - [GetIt](https://pub.dev/packages/get_it)
+  - [Injectable](https://pub.dev/packages/injectable)
 
 Referecies:
 - https://applover.com/blog/flutter-architecture-best-practices-for-your-mobile-projects/

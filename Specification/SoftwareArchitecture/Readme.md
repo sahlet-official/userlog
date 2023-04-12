@@ -3,16 +3,16 @@
 **Best practices in Flutter**:
 Needed practices:
 - Foldes structure<br>
-TODO: complite folder strucure
-lib/
-    common/
-    services/
-    features/
-             feature/
-                     api/
-                     assets/
-                     screens/
-                     widgets/
+TODO: complite folder strucure<br>
+lib/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;common/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;services/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;features/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;feature/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;api/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;screens/<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;widgets/<br>
 - [BLoC](bloclibrary.dev)
 - DI in Flutter:
   - [GetIt](https://pub.dev/packages/get_it)

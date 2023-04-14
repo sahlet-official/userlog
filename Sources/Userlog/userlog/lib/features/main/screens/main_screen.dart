@@ -4,9 +4,9 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'package:userlog/common/styles/fonts.dart';
 import 'package:userlog/features/about/api/about_routes.dart';
-import 'package:userlog/features/main/api/main_routes.dart';
 import 'package:userlog/features/main/assets/main_images.dart';
 import 'package:userlog/features/main/assets/main_texts.dart';
+import 'package:userlog/features/main/screens/clear_log_confirmation_screen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
@@ -149,10 +149,10 @@ class _MainScreenState extends State<MainScreen> {
                   ),
                   iconSize: 33,
                   onPressed: () {
-                    Navigator.pushNamed(
-                      context,
-                      MainRoutes.clear,
-                    );
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (context) => const ClearAnswer()));
                   },
                 ),
               ),

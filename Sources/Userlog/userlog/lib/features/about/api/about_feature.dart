@@ -4,7 +4,7 @@ import 'package:userlog/common/infrastructure/feature_base/ui_feature.dart';
 import 'package:userlog/features/about/api/about_routes.dart';
 import 'package:userlog/features/about/screens/about_screen.dart';
 
-class AboutFeature extends UiFeature {
+class AboutFeature extends UIFeature {
   @override
   Map<String, WidgetBuilder> getRoutes() {
     return {

@@ -26,10 +26,13 @@ class UserLogApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<UiFeature> featuresApi = [MainFeature(), AboutFeature()];
+    List<UIFeature> features = [
+      MainFeature(), 
+      AboutFeature(),
+    ];
     Map<String, WidgetBuilder> routes = {};
     Map<String, WidgetBuilder> route;
-    for (var e in featuresApi) {
+    for (var e in features) {
       route = e.getRoutes();
       _isSameRoute(route, routes);
     }

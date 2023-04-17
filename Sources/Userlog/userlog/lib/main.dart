@@ -12,30 +12,28 @@ void main() {
 class UserLogApp extends StatelessWidget {
   const UserLogApp({super.key});
 
-  Map<String, WidgetBuilder> _isSameRoute(
-      Map<String, WidgetBuilder> route, Map<String, WidgetBuilder> routes) {
-    for (var key in route.keys) {
-      if (routes.containsKey(key)) {
-        throw "This route already exists";
+  Map<String, WidgetBuilder> _getRoutes(List<UIFeature> features) {
+    Map<String, WidgetBuilder> route;
+    Map<String, WidgetBuilder> routes = {};
+    for (var e in features) {
+      route = e.getRoutes();
+      for (var key in route.keys) {
+        if (routes.containsKey(key)) {
+          throw "This route already exists";
+        }
+        routes.addAll(route);
       }
-      routes[key] = route[key]!;
     }
-
     return routes;
   }
 
   @override
   Widget build(BuildContext context) {
     List<UIFeature> features = [
-      MainFeature(), 
+      MainFeature(),
       AboutFeature(),
     ];
-    Map<String, WidgetBuilder> routes = {};
-    Map<String, WidgetBuilder> route;
-    for (var e in features) {
-      route = e.getRoutes();
-      _isSameRoute(route, routes);
-    }
+    Map<String, WidgetBuilder> routes = _getRoutes(features);
 
     return MaterialApp(
       title: 'UserLog',

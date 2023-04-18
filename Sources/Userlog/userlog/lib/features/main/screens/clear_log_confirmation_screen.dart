@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'package:userlog/common/styles/fonts.dart';
-import 'package:userlog/features/main/assets/main_texts.dart';
+import 'package:userlog/features/main/widgets/clear_widgets/clear_center_widget.dart';
+import 'package:userlog/features/main/widgets/clear_widgets/clear_title.dart';
 
 class ClearAnswer extends StatelessWidget {
   const ClearAnswer({super.key});
@@ -10,80 +10,10 @@ class ClearAnswer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: <Widget>[
-          const ClearTitle(),
-          Container(
-            padding: const EdgeInsets.only(top: 100),
-            child: Row(
-              mainAxisSize: MainAxisSize.min,
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: <Widget>[
-                TextButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: const TextButtonStyle(
-                      color: Colors.black, text: MainTexts.canselButtonText),
-                ),
-                const SizedBox(
-                  width: 20,
-                ),
-                TextButton(
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: const TextButtonStyle(
-                      color: Colors.red, text: MainTexts.clearButtonText),
-                ),
-              ],
-            ),
-          ),
+        children: const <Widget>[
+          ClearTitle(),
+          ClearCenterWidget(),
         ],
-      ),
-    );
-  }
-}
-
-class ClearTitle extends StatelessWidget {
-  const ClearTitle({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Container(
-        padding: const EdgeInsets.fromLTRB(60, 270, 0, 0),
-        child: const Text(
-          MainTexts.clearQuestionText,
-          style: TextStyle(
-            color: Colors.black,
-            fontSize: 36,
-            fontWeight: FontWeight.bold,
-            fontFamily: Fonts.mainFontFamily,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class TextButtonStyle extends StatelessWidget {
-  final Color color;
-  final String text;
-  const TextButtonStyle({
-    Key? key,
-    required this.color,
-    required this.text,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Text(
-      text,
-      style: TextStyle(
-        color: color,
-        fontSize: 32,
-        fontWeight: FontWeight.bold,
-        fontFamily: Fonts.mainFontFamily,
       ),
     );
   }

@@ -13,16 +13,15 @@ class UserLogApp extends StatelessWidget {
   const UserLogApp({super.key});
 
   Map<String, WidgetBuilder> _getRoutes(List<UIFeature> features) {
-    Map<String, WidgetBuilder> route;
     Map<String, WidgetBuilder> routes = {};
     for (var e in features) {
-      route = e.getRoutes();
-      for (var key in route.keys) {
+      Map<String, WidgetBuilder> featureRoutes = e.getRoutes();
+      for (var key in featureRoutes.keys) {
         if (routes.containsKey(key)) {
           throw "This route already exists";
         }
-        routes.addAll(route);
       }
+      routes.addAll(featureRoutes);
     }
     return routes;
   }

@@ -5,12 +5,10 @@ import 'package:userlog/common/styles/fonts.dart';
 class ClearTextButtonStyle extends StatelessWidget {
   final Color color;
   final String text;
-  final double fontSize;
   const ClearTextButtonStyle({
     Key? key,
     required this.color,
     required this.text,
-    required this.fontSize,
   }) : super(key: key);
 
   @override
@@ -19,7 +17,7 @@ class ClearTextButtonStyle extends StatelessWidget {
       text,
       style: TextStyle(
         color: color,
-        fontSize: fontSize,
+        fontSize: 32,
         fontWeight: FontWeight.bold,
         fontFamily: Fonts.mainFontFamily,
       ),

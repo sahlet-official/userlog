@@ -3,13 +3,11 @@ import 'package:flutter_svg/svg.dart';
 
 class MainIconButton extends StatelessWidget {
   final String imagePath;
-  final double iconSize;
   final Function onPressed;
 
   const MainIconButton({
     Key? key,
     required this.imagePath,
-    required this.iconSize,
     required this.onPressed,
   }) : super(key: key);
 
@@ -20,7 +18,7 @@ class MainIconButton extends StatelessWidget {
         imagePath,
         fit: BoxFit.cover,
       ),
-      iconSize: iconSize,
+      iconSize: 33,
       onPressed: () {
         onPressed();
       },

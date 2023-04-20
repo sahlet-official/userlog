@@ -21,7 +21,6 @@ class ClearCenterWidget extends StatelessWidget {
             child: const ClearTextButtonStyle(
               color: Colors.black,
               text: MainTexts.canselButtonText,
-              fontSize: 32,
             ),
           ),
           const SizedBox(
@@ -34,7 +33,6 @@ class ClearCenterWidget extends StatelessWidget {
             child: const ClearTextButtonStyle(
               color: Colors.red,
               text: MainTexts.clearButtonText,
-              fontSize: 32,
             ),
           ),
         ],

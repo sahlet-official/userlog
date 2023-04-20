@@ -60,7 +60,6 @@ class MainCenterWidget extends StatelessWidget {
           alignment: Alignment.topRight,
           child: MainIconButton(
             imagePath: MainImages.cleanButtonImage,
-            iconSize: 33,
             onPressed: () {
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => const ClearAnswer()));

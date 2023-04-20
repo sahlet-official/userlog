@@ -16,7 +16,6 @@ class MainBottomWidget extends StatelessWidget {
       children: <Widget>[
         MainIconButton(
           imagePath: MainImages.infoButtonImage,
-          iconSize: 33,
           onPressed: () {
             Navigator.pushNamed(
               context,
@@ -26,7 +25,6 @@ class MainBottomWidget extends StatelessWidget {
         ),
         MainIconButton(
             imagePath: MainImages.shutdownButtonImage,
-            iconSize: 33,
             onPressed: () => SystemNavigator.pop()),
       ],
     );

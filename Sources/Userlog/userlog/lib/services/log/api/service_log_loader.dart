@@ -2,7 +2,7 @@ import 'package:userlog/common/infrastructure/feature_base/service_loader.dart';
 import 'package:userlog/services/log/api/i_log_service.dart';
 import 'package:userlog/services/log/services/log_service.dart';
 
-class ServiceLogFeature extends ServiceLoader implements ILogService {
+class ServiceLogLoader extends ServiceLoader implements ILogService {
   final _logService = LogService();
 
   // @override
@@ -18,20 +18,19 @@ class ServiceLogFeature extends ServiceLoader implements ILogService {
   //     yield update;
   //   }
   // }
-  
-  
+
   @override
   List getRecords(int from, int to) {
     // TODO: implement getRecords
     throw UnimplementedError();
   }
-  
+
   @override
   int getRecordsNumber() {
     // TODO: implement getRecordsNumber
     throw UnimplementedError();
   }
-  
+
   @override
   Stream getUpdates() {
     // TODO: implement getUpdates

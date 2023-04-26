@@ -1,6 +1,6 @@
 import 'dart:async';
 
-class LogService{
+class LogService {
   Future<String> getUpdate() async {
     Duration interval = const Duration(seconds: 5);
     String result = 'Update';

@@ -1,3 +1,3 @@
-class Feature {
-  Future<void> init() async {}
+abstract class Initable {
+  Future<void> init();
 }

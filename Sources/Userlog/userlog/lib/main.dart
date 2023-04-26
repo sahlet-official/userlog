@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:userlog/common/infrastructure/feature_base/ui_feature.dart';
+import 'package:userlog/common/infrastructure/feature_base/ui_feature_loader.dart';
 import 'package:userlog/features/about/api/about_feature.dart';
 import 'package:userlog/features/main/api/main_feature.dart';
 import 'package:userlog/features/main/api/main_routes.dart';
@@ -12,7 +12,7 @@ void main() {
 class UserLogApp extends StatelessWidget {
   const UserLogApp({super.key});
 
-  Map<String, WidgetBuilder> _getRoutes(List<UIFeature> features) {
+  Map<String, WidgetBuilder> _getRoutes(List<UIFeatureLoader> features) {
     Map<String, WidgetBuilder> routes = {};
     for (var e in features) {
       Map<String, WidgetBuilder> featureRoutes = e.getRoutes();
@@ -28,7 +28,7 @@ class UserLogApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    List<UIFeature> features = [
+    List<UIFeatureLoader> features = [
       MainFeature(),
       AboutFeature(),
     ];

@@ -1,10 +1,10 @@
 import 'package:flutter/widgets.dart';
 
-import 'package:userlog/common/infrastructure/feature_base/ui_feature_loader.dart';
+import 'package:userlog/common/infrastructure/feature_base/feature_loader.dart';
 import 'package:userlog/features/main/api/main_routes.dart';
 import 'package:userlog/features/main/screens/main_screen.dart';
 
-class MainFeature extends UIFeatureLoader {
+class MainFeature extends FeatureLoader {
   @override
   Map<String, WidgetBuilder> getRoutes() {
     return {

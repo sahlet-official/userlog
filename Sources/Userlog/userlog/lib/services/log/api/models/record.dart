@@ -1,8 +1,8 @@
 class Record {
-  DateTime recTime;
+  DateTime creationTime;
   String value;
   Record({
-    required this.recTime,
+    required this.creationTime,
     required this.value,
   });
 }

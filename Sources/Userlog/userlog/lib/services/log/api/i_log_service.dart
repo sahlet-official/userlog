@@ -1,5 +1,7 @@
+import 'package:userlog/services/log/api/models/record.dart';
+
 abstract class ILogService {
   int getRecordsNumber();
-  List getRecords(int from, int to); // dives records from number 'from' to number 'to'
-  Stream getUpdates();
+  List<Record> getRecords(int from, int to);
+  Stream<Record> getUpdates();
 }

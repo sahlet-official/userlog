@@ -2,7 +2,7 @@ import 'package:flutter/widgets.dart';
 
 import 'package:userlog/common/infrastructure/feature_base/initable.dart';
 
-abstract class FeatureLoader implements Initable {
+abstract class UIFeature implements Initable {
   @override
   Future<void> init() async {}
 

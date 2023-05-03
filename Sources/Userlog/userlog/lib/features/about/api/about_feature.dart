@@ -11,10 +11,4 @@ class AboutFeature extends UIFeature {
       AboutRoutes.about: (context) => const AboutScreen(),
     };
   }
-  
-  @override
-  Future<void> init() {
-    // TODO: implement init
-    throw UnimplementedError();
-  }
 }

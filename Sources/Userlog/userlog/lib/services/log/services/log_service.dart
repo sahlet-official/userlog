@@ -5,7 +5,7 @@ import 'package:userlog/services/log/api/i_log_service.dart';
 import 'package:userlog/services/log/api/models/record.dart';
 
 class LogService implements ILogService {
-  List<Record> rec = [];
+  int recordsNumber = 10;
 
   Record generateRecord() {
     final now = DateTime.now();
@@ -16,26 +16,23 @@ class LogService implements ILogService {
 
   @override
   List<Record> getRecords(int from, int to) {
-    List<Record> rec = [
-      generateRecord(),
-      generateRecord(),
-      generateRecord(),
-      generateRecord(),
-      generateRecord(),
-      generateRecord(),
-      generateRecord()
-    ];
+    List<Record> rec = [];
     List<Record> getRec = [];
+    Record recElem;
 
-    if (from <= (getRecordsNumber() - 1) &&
+    for (int i = 0; i < getRecordsNumber(); i++) {
+      recElem = generateRecord();
+      rec.add(recElem);
+    }
+
+    if (from <= getRecordsNumber() &&
+        to <= getRecordsNumber() &&
         from <= to &&
-        from >= 0 &&
-        to >= 0) {
-      to = to >= getRecordsNumber() ? getRecordsNumber() - 1 : to;
-      for (int i = from; i <= to; i++) {
+        from > 0 &&
+        to > 0) {
+      for (int i = (from - 1); i <= (to - 1); i++) {
         getRec.add(rec[i]);
       }
-      getRec.sort((a, b) => b.creationTime.compareTo(a.creationTime));
     }
 
     return getRec;
@@ -43,7 +40,7 @@ class LogService implements ILogService {
 
   @override
   int getRecordsNumber() {
-    return rec.length;
+    return recordsNumber;
   }
 
   @override

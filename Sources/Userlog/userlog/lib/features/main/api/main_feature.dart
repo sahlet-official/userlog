@@ -11,10 +11,4 @@ class MainFeature extends UIFeature {
       MainRoutes.root: (context) => const MainScreen(),
     };
   }
-  
-  @override
-  Future<void> init() {
-    // TODO: implement init
-    throw UnimplementedError();
-  }
 }

@@ -16,26 +16,24 @@ class LogService implements ILogService {
 
   @override
   List<Record> getRecords(int from, int to) {
-    List<Record> rec = [];
-    List<Record> getRec = [];
+    int recordsNum = getRecordsNumber();
+    bool throwExcept = false;
+    throwExcept = from > recordsNum || to > recordsNum;
+    throwExcept = throwExcept || from > to || from < 1;
+    if (throwExcept) {
+      throw ("Invate paramets");
+    }
+
+    List<Record> resultRecords = [];
     Record recElem;
+    int resultRecordsNum = to - from;
 
-    for (int i = 0; i < getRecordsNumber(); i++) {
+    for (int i = 0; i < resultRecordsNum; i++) {
       recElem = generateRecord();
-      rec.add(recElem);
+      resultRecords.add(recElem);
     }
 
-    if (from <= getRecordsNumber() &&
-        to <= getRecordsNumber() &&
-        from <= to &&
-        from > 0 &&
-        to > 0) {
-      for (int i = (from - 1); i <= (to - 1); i++) {
-        getRec.add(rec[i]);
-      }
-    }
-
-    return getRec;
+    return resultRecords;
   }
 
   @override
@@ -47,6 +45,7 @@ class LogService implements ILogService {
   Stream<Record> getUpdates() async* {
     const period = Duration(seconds: 3);
     while (true) {
+      recordsNumber++;
       yield Record(creationTime: DateTime.now(), value: "some value");
       await Future.delayed(period);
     }

@@ -5,7 +5,7 @@ import 'package:injectable/injectable.dart';
 import 'package:userlog/services/log/api/i_log_service.dart';
 import 'package:userlog/services/log/api/models/record.dart';
 
-@singleton
+@injectable
 class LogService implements ILogService {
   int recordsNumber = 10;
 

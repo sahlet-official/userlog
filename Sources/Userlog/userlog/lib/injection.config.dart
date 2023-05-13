@@ -12,7 +12,8 @@
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:userlog/services/log/api/i_log_service.dart' as _i3;
-import 'package:userlog/services/log/api/log_service_module.dart' as _i5;
+import 'package:userlog/services/log/dependencies/log_service_module.dart'
+    as _i5;
 import 'package:userlog/services/log/services/log_service.dart' as _i4;
 
 extension GetItInjectableX on _i1.GetIt {
@@ -28,7 +29,7 @@ extension GetItInjectableX on _i1.GetIt {
     );
     final logServiceModule = _$LogServiceModule();
     gh.singleton<_i3.ILogService>(logServiceModule.logService);
-    gh.singleton<_i4.LogService>(_i4.LogService());
+    gh.factory<_i4.LogService>(() => _i4.LogService());
     return this;
   }
 }

@@ -4,8 +4,10 @@ import 'package:userlog/common/infrastructure/feature_base/ui_feature.dart';
 import 'package:userlog/features/about/api/about_feature.dart';
 import 'package:userlog/features/main/api/main_feature.dart';
 import 'package:userlog/features/main/api/main_routes.dart';
+import 'package:userlog/injection.dart';
 
 void main() {
+  configureDependencies();
   runApp(const UserLogApp());
 }
 

@@ -1,4 +1,4 @@
-This is first iteration of creating logo for Userlog made by designer 
+This is first iteration of creating logo for Userlog made by designer<br> 
 <empty line>
 Design was made acording to next lsit of requirements:
 - Product Owner wishes;<br>

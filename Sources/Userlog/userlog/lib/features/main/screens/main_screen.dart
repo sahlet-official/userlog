@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 import 'package:userlog/features/main/widgets/main_widgets/main_bottom_widget.dart';
 import 'package:userlog/features/main/widgets/main_widgets/main_center_widget.dart';
-import 'package:userlog/features/main/widgets/main_widgets/main_record_label.dart';
 import 'package:userlog/features/main/widgets/main_widgets/main_text_field_widget.dart';
 
 class MainScreen extends StatelessWidget {
@@ -44,12 +43,11 @@ class MainScreen extends StatelessWidget {
             MainTextFieldWidget(
               filterInputPadding: filterInputPadding,
             ),
-            RecordLabel(
-                recordsWidthInputPadding: recordsWidthInputPadding,
-                recordsHeightInputPadding: recordsHeightInputPadding),
             MainCenterWidget(
                 textAreaWidthInputPadding: textAreaWidthInputPadding,
-                textAreaHeightInputPadding: textAreaHeightInputPadding),
+                textAreaHeightInputPadding: textAreaHeightInputPadding,
+                recordsWidthInputPadding: recordsWidthInputPadding,
+                recordsHeightInputPadding: recordsHeightInputPadding),
             SizedBox(
               height: filterInputPadding,
               width: screenWidth,

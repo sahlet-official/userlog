@@ -9,11 +9,13 @@ class ClearAnswer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        children: const <Widget>[
-          ClearTitle(),
-          ClearCenterWidget(),
-        ],
+      body: SingleChildScrollView(
+        child: Column(
+          children: const <Widget>[
+            ClearTitle(),
+            ClearCenterWidget(),
+          ],
+        ),
       ),
     );
   }

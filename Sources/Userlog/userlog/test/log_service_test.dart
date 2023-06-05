@@ -16,6 +16,4 @@ void main() {
   subscription = logService.getUpdates().listen((event) {
     print("${event.creationTime} : ${event.value}");
   });
-
 }
-

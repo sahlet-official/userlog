@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:get_it/get_it.dart';
 
 import 'package:userlog/features/main/widgets/main_widgets/main_bottom_widget.dart';
 import 'package:userlog/features/main/widgets/main_widgets/main_center_widget.dart';
 import 'package:userlog/features/main/widgets/main_widgets/main_text_field_widget.dart';
+import 'package:userlog/services/log/api/i_log_service.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final logService = GetIt.instance<ILogService>();
+
     //screen width
     double screenWidth = MediaQuery.of(context).size.width;
     //screen height
@@ -44,10 +48,12 @@ class MainScreen extends StatelessWidget {
               filterInputPadding: filterInputPadding,
             ),
             MainCenterWidget(
-                textAreaWidthInputPadding: textAreaWidthInputPadding,
-                textAreaHeightInputPadding: textAreaHeightInputPadding,
-                recordsWidthInputPadding: recordsWidthInputPadding,
-                recordsHeightInputPadding: recordsHeightInputPadding),
+              textAreaWidthInputPadding: textAreaWidthInputPadding,
+              textAreaHeightInputPadding: textAreaHeightInputPadding,
+              recordsWidthInputPadding: recordsWidthInputPadding,
+              recordsHeightInputPadding: recordsHeightInputPadding,
+              logService: logService,
+            ),
             SizedBox(
               height: filterInputPadding,
               width: screenWidth,

@@ -7,7 +7,7 @@ import 'package:userlog/services/log/api/models/record.dart';
 
 @injectable
 class LogService implements ILogService {
-  int recordsNumber = 10;
+  int recordsNumber = 40;
 
   Record generateRecord() {
     final now = DateTime.now();
@@ -47,8 +47,8 @@ class LogService implements ILogService {
   Stream<Record> getUpdates() async* {
     const period = Duration(seconds: 3);
     while (true) {
-      recordsNumber++;
-      yield Record(creationTime: DateTime.now(), value: "some value");
+      final record = generateRecord();
+      yield record;
       await Future.delayed(period);
     }
   }
